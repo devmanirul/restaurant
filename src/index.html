@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="max-w-7xl mx-auto pl-10 bg-[#fafafa] flex flex-row gap-5 rounded-b-lg"
+    >
+      <!-- left -->
+      <div class="w-4/12 flex flex-row gap-2 justify-start items-center">
+        <img src="./images/home/🌟.png" alt="" class="" />
+        <p class="text-xs">
+          Get 5% Off your first order,
+          <span class="text-[#fc8e0e] text-xs cursor-pointer"
+            >Promo: ORDER5</span
+          >
+        </p>
+      </div>
+      <!-- mid -->
+      <div class="w-5/12 flex flex-row gap-2 justify-end items-center">
+        <img src="./images/home/Location.svg" alt="" class="cursor-pointer" />
+        <p class="text-xs">Regent Street, A4, A4201, London</p>
+        <span class="text-[#fc8e0e] text-xs cursor-pointer"
+          >Change Location</span
+        >
+      </div>
+      <!-- right -->
+      <div
+        class="w-4/12 flex flex-row gap-4 justify-center items-center bg-[#028643] rounded-b-lg"
+      >
+        <div class="w-4/12 border-r py-3">
+          <img
+            src="./images/home/Full Shopping Basket.svg"
+            alt=""
+            class="pl-7 cursor-pointer"
+          />
+        </div>
+        <div
+          class="w-3/12 border-r h-full flex flex-row items-center justify-center"
+        >
+          <p class="text-xs text-white pr-4">23 Items</p>
+        </div>
+        <div
+          class="w-3/12 border-r h-full flex flex-row items-center justify-center"
+        >
+          <p class="text-xs text-white pr-5">GBP 79.89</p>
+        </div>
+        <div class="w-2/12">
+          <img
+            src="./images/home/Forward Button.svg"
+            alt=""
+            class="pr-4 cursor-pointer"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- nav -->
+    <nav
+      class="max-w-7xl mx-auto flex flex-row justify-center items-center gap-5 py-7"
+    >
+      <!-- left -->
+      <div class="w-2/12">
+        <img
+          src="./images/home/LOGO 1.svg"
+          alt=""
+          class="w-32 h-12 cursor-pointer"
+        />
+      </div>
+      <!-- mid -->
+      <div class="w-8/12 flex flex-row justify-center items-center gap-5">
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1">Home</a>
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Browse Menu</a
+        >
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Special Offers</a
+        >
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Restaurants</a
+        >
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Track Order</a
+        >
+      </div>
+      <!-- right -->
+      <button
+        class="w-2/12 bg-black flex flex-row justify-center items-center gap-3 rounded-full py-3"
+      >
+        <img src="./images/home/Male User.svg" alt="" />
+        <p class="text-white">Login/signup</p>
+      </button>
+    </nav>
+    <!-- main section -->
+    <main class="max-w-7xl mx-auto">
+      <!-- Feast your senses section -->
+      <section
+        class="relative w-full flex flex-row bg-[#fbfbfb] rounded-md px-10"
+      >
+        <!-- left -->
+        <div class="w-6/12 flex flex-col gap-5 py-20">
+          <p class="text-xs font-semibold py-2">
+            Order Restaurant food, takeaway and groceries.
+          </p>
+          <h1 class="text-5xl font-bold">
+            Feast Your Senses, <br />
+            <span class="text-[#fc8a06]">Fast and Fresh</span>
+          </h1>
+          <p class="">Enter a postcode to see what we deliver</p>
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="e.g. EC4R 3TE"
+              class="rounded-l-full py-3 pl-4 border"
+            />
+            <button
+              class="absolute left-[150px] bg-[#fc8a06] text-white rounded-full px-14 py-3"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+        <!-- right -->
+        <div
+          class="absolute h-[390px] bottom-0 right-0 w-5/12 bg-[#fc8a06] rounded-l-full z-0"
+        ></div>
+        <!-- nodols pic -->
+        <div class="absolute right-80 bottom-0 z-10">
+          <img
+            src="./images/home/nodols.svg"
+            alt=""
+            class="max-w-96 h-[305px]"
+          />
+        </div>
+        <!-- pizza pic -->
+        <div class="absolute right-[395px] bottom-0 z-20">
+          <img src="./images/home/pizza.svg" alt="" class="h-[390px]" />
+        </div>
+        <!-- all text -->
+        <!-- text 1 -->
+        <div class="">
+          <div
+            class="absolute w-3/12 flex flex-col bg-white z-20 right-32 top-20 p-1.5  rounded-lg"
+          >
+            <div class="flex flex-row justify-between">
+              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
+              <p class="text-[#8e8e8e] text-sm">now</p>
+            </div>
+            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
+            <p class="text-sm">Awaiting Restaurant acceptance</p>
+          </div>
+          <!-- number 1 -->
+          <p class="absolute right-44 top-10 text-5xl text-white font-medium">
+            1
+          </p>
+        </div>
+        <!-- text 2 -->
+        <div class="">
+          <div
+            class="absolute w-3/12 flex flex-col bg-white z-20 right-24 top-52 p-1.5   rounded-lg"
+          >
+            <div class="flex flex-row justify-between">
+              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
+              <p class="text-[#8e8e8e]">now</p>
+            </div>
+            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
+            <p class="text-sm">Awaiting Restaurant acceptance</p>
+          </div>
+          <!-- number 2 -->
+          <p class="absolute right-28 top-40 text-5xl text-white font-medium">
+            2
+          </p>
+        </div>
+        <!-- text 3 -->
+        <div class="">
+          <div
+            class="absolute w-3/12 flex flex-col bg-white z-20 right-28 bottom-5 p-1.5 rounded-lg"
+          >
+            <div class="flex flex-row justify-between">
+              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
+              <p class="text-[#8e8e8e]">now</p>
+            </div>
+            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
+            <p class="text-sm">Awaiting Restaurant acceptance</p>
+          </div>
+          <!-- number 1 -->
+          <p class="absolute right-32 bottom-24 text-5xl text-white font-medium">
+            3
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

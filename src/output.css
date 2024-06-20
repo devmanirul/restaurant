@@ -606,10 +606,6 @@ video {
   right: 395px;
 }
 
-.top-10 {
-  top: 2.5rem;
-}
-
 .top-20 {
   top: 5rem;
 }
@@ -620,6 +616,58 @@ video {
 
 .top-52 {
   top: 13rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.right-40 {
+  right: 10rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-0 {
@@ -751,6 +799,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -761,6 +813,10 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-b-lg {
@@ -779,6 +835,11 @@ video {
 
 .border-r {
   border-right-width: 1px;
+}
+
+.border-\[\#fc8a06\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(252 138 6 / var(--tw-border-opacity));
 }
 
 .bg-\[\#028643\] {
@@ -819,6 +880,10 @@ video {
   padding: 0.375rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -854,9 +919,19 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pl-10 {
@@ -894,6 +969,11 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -926,7 +1006,46 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#fc\] {
+  color: #fc;
+}
+
+.text-\[\#fc8a\] {
+  color: #fc8a;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:border-\[2px\]:hover {
+  border-width: 2px;
+}
+
+.hover\:border-\[1px\]:hover {
+  border-width: 1px;
+}
+
 .hover\:bg-\[\#fc8a06\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(252 138 6 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#fc8a06\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(252 138 6 / var(--tw-text-opacity));
 }

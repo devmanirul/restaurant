@@ -593,7 +593,7 @@
           <div class="flex flex-col gap-3">
             <!-- top -->
             <div
-              class="flex flex-row justify-center items-center gap-3 bg-[#fc8a06] px-4 py-5 rounded-lg text-white"
+              class="flex flex-row justify-center items-center gap-3 bg-[#fc8a06] px-4 py-6 rounded-lg text-white"
             >
               <img src="./images/ordering-page/Clock.svg" alt="" class="w-8" />
               <p class="text-sm font-semibold">Open until 3:00 AM</p>
@@ -601,7 +601,7 @@
             <!-- basket -->
             <div class="flex flex-col bg-[#f9f9f9] border">
               <div
-                class="flex flex-row justify-center items-center gap-4 bg-green-600 rounded-t-md p-2"
+                class="flex flex-row justify-center items-center gap-4 bg-green-600 rounded-t-md px-4 py-6"
               >
                 <img src="./images/ordering-page/Basket.svg" alt="" class="" />
                 <p class="text-lg font-semibold text-white">My Basket</p>
@@ -638,9 +638,9 @@
                 </div>
                 <img src="./images/ordering-page/Remove.svg" alt="" class="" />
               </div>
-              <!-- coca cola -->
+              <!-- coca cola 4.0 -->
               <div
-                class="flex flex-row justify-center items-center gap-4 p-3 border-b"
+                class="flex flex-row justify-between items-center gap-2 px-7 py-2 border-b"
               >
                 <div
                   class="bg-[#fc8a06] rounded-full py-0.5 px-1 text-white text-base font-bold"
@@ -693,14 +693,14 @@
               </div>
               <!-- total pay -->
               <div
-                class="bg-[#fc8a06] flex flex-row gap-2 justify-between items-center m-1 p-2 rounded-lg"
+                class="bg-[#fc8a06] flex flex-row gap-2 justify-between items-center m-2 p-2 rounded-lg"
               >
                 <p class="text-base font-semibold text-white">Total to pay</p>
                 <h3 class="text-xl font-semibold text-white">$127.90</h3>
               </div>
               <!-- Choose fee items -->
               <div
-                class="flex flex-row justify-between items-center gap-3 bg-[#fbfbfb] p-2 rounded-full border px-2 m-1"
+                class="flex flex-row justify-between items-center gap-3 bg-[#fbfbfb] p-2 rounded-full border px-2 m-2"
               >
                 <p class="">Choose your free item..</p>
                 <img
@@ -711,7 +711,7 @@
               </div>
               <!-- coupon code -->
               <div
-                class="flex flex-row justify-between items-center gap-3 bg-[#fbfbfb] p-2 rounded-full border px-2 m-1"
+                class="flex flex-row justify-between items-center gap-3 bg-[#fbfbfb] p-2 rounded-full border px-2 m-2 border-b pb-2"
               >
                 <p class="">Apply Coupon code here</p>
                 <img
@@ -720,11 +720,67 @@
                   class="top-2.5 right-3"
                 />
               </div>
+              <!-- delivery -->
+              <div class="flex flex-row justify-between items-center">
+                <!-- left -->
+                <div
+                  class="flex flex-col items-center justify-center gap-1 m-2 px-6 py-2 border rounded-md"
+                >
+                  <img
+                    src="./images/ordering-page/Delivery Scooter.svg"
+                    alt=""
+                  />
+                  <h3 class="text-xs font-bold">Delivery</h3>
+                  <p class="text-xs">Starts at 17.50</p>
+                </div>
+                <!-- right -->
+                <div
+                  class="flex flex-col items-center justify-center gap-1 m-2 px-6 py-2 border-l rounded-md"
+                >
+                  <img src="./images/ordering-page/New Store.svg" alt="" />
+                  <h3 class="text-xs font-bold">Collection</h3>
+                  <p class="text-xs">Starts at 16.50</p>
+                </div>
+              </div>
+              <!-- checkout -->
+              <div class="bg-green-600 flex flex-row gap-14 rounded-md p-2 m-2">
+                <img
+                  src="./images/ordering-page/Forward right w.svg"
+                  alt=""
+                  class=""
+                />
+                <div class="flex flex-row justify-center items-center">
+                  <h3 class="font-bold text-white">Checkout</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
+      <!-- delivary dection -->
+      <section class="flex flex-row">
+        <div class="w-8/12 flex flex-row">
+          <div class="flex flex-col gap-2">
+            <div class="flex flex-row justify-center items-center gap-2">
+              <img src="./images/ordering-page/Tracking.svg" alt="" class="" />
+              <h3 class="text-xl font-bold">Delivery information</h3>
+            </div>
+            <div class="">
+              <p class="">
+                Monday: 12:00 AM–3:00 AM, 8:00 AM–3:00 AM <br />
+                Tuesday: 8:00 AM–3:00 AM <br />
+                Wednesday: 8:00 AM–3:00 AM <br />Thursday: 8:00 AM–3:00 AM
+                <br />
+                Friday: 8:00 AM–3:00 AM <br />
+                Saturday: 8:00 AM–3:00 AM <br />
+                Sunday: 8:00 AM–12:00 AM <br />
+                Estimated time until delivery: 20 min
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-4/12 bg-black"></div>
+      </section>
       <!-- popular categories -->
       <section class="flex flex-col gap-7 py-5">
         <!--  nav -->

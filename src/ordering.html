@@ -14,7 +14,7 @@
       <!-- left -->
       <div class="w-4/12 flex flex-row gap-2 justify-start items-center">
         <img src="./images/home/🌟.png" alt="" class="" />
-        <p class="text-xs">
+        <p class="text-xs font-bold">
           Get 5% Off your first order,
           <span class="text-[#fc8e0e] text-xs cursor-pointer"
             >Promo: ORDER5</span
@@ -24,8 +24,8 @@
       <!-- mid -->
       <div class="w-5/12 flex flex-row gap-2 justify-end items-center">
         <img src="./images/home/Location.svg" alt="" class="cursor-pointer" />
-        <p class="text-xs">Regent Street, A4, A4201, London</p>
-        <span class="text-[#fc8e0e] text-xs cursor-pointer"
+        <p class="text-xs font-bold">Regent Street, A4, A4201, London</p>
+        <span class="text-[#fc8e0e] text-xs underline font-bold cursor-pointer"
           >Change Location</span
         >
       </div>
@@ -43,12 +43,12 @@
         <div
           class="w-3/12 border-r h-full flex flex-row items-center justify-center"
         >
-          <p class="text-xs text-white pr-4">23 Items</p>
+          <p class="text-xs font-bold text-white pr-4">23 Items</p>
         </div>
         <div
           class="w-3/12 border-r h-full flex flex-row items-center justify-center"
         >
-          <p class="text-xs text-white pr-5">GBP 79.89</p>
+          <p class="text-xs font-bold text-white pr-5">GBP 79.89</p>
         </div>
         <div class="w-2/12">
           <img
@@ -97,262 +97,538 @@
     </nav>
     <!-- main section -->
     <main class="max-w-7xl mx-auto">
-      <!-- Feast your senses section -->
+      <!-- tandoori pizza section -->
       <section
-        class="relative w-full flex flex-row bg-[#fbfbfb] rounded-md px-10"
+        class="w-full flex flex-row rounded-lg py-14 bg-[#E2E2E2]/90 bg-[url('/images/Group 23.png')]"
       >
         <!-- left -->
-        <div class="w-6/12 flex flex-col gap-5 py-20">
-          <p class="text-xs font-semibold py-2">
-            Order Restaurant food, takeaway and groceries.
-          </p>
-          <h1 class="text-5xl font-bold">
-            Feast Your Senses, <br />
-            <span class="text-[#fc8a06]">Fast and Fresh</span>
-          </h1>
-          <p class="">Enter a postcode to see what we deliver</p>
-          <div class="relative">
-            <input
-              type="text"
-              placeholder="e.g. EC4R 3TE"
-              class="rounded-l-full py-3 pl-4 border"
-            />
-            <button
-              class="absolute left-[150px] bg-[#fc8a06] text-white rounded-full px-14 py-3"
-            >
-              Search
-            </button>
-          </div>
-        </div>
-        <!-- right -->
         <div
-          class="absolute h-[390px] bottom-0 right-0 w-5/12 bg-[#fc8a06] rounded-l-full z-0"
-        ></div>
-        <!-- nodols pic -->
-        <div class="absolute right-80 bottom-0 z-10">
+          class="relative w-7/12 flex flex-col gap-4 px-16 py-20 justify-end"
+        >
+          <p class="">Desi Flavours with a blend of Italian aesthetics!</p>
+          <h1 class="text-5xl font-bold">Tandoori Pizza London</h1>
+          <div class="flex flex-row gap-4">
+            <!--  -->
+            <div
+              class="w-1/2 bg-black flex flex-row gap-3 justify-center items-center px-4 py-3 rounded-full text-white"
+            >
+              <img src="./images/ordering-page/note.svg" alt="" class="" />
+              <p class="">Minimum Order: 12 GBP</p>
+            </div>
+            <!-- ritht -->
+            <div
+              class="bg-black flex flex-row gap-3 justify-center items-center px-4 py-3 rounded-full text-white"
+            >
+              <img src="./images/ordering-page/Motocross.svg" alt="" class="" />
+              <p class="">Delivery in 20-25 Minutes</p>
+            </div>
+          </div>
+          <!-- clock -->
+          <div
+            class="flex flex-row justify-center items-center gap-3 absolute -bottom-20 left-0 bg-[#fc8a06] px-4 py-3 rounded-r-lg text-white"
+          >
+            <img src="./images/ordering-page/Clock.svg" alt="" class="w-8" />
+            <p class="">Open until 3:00 AM</p>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="w-5/12 relative pr-16">
           <img
-            src="./images/home/nodols.svg"
+            src="./images/ordering-page/pizza-ordering.svg"
             alt=""
-            class="max-w-96 h-[305px]"
+            class=""
           />
-        </div>
-        <!-- pizza pic -->
-        <div class="absolute right-[395px] bottom-0 z-20">
-          <img src="./images/home/pizza.svg" alt="" class="h-[390px]" />
-        </div>
-        <!-- all text -->
-        <!-- text 1 -->
-        <div class="">
-          <div
-            class="absolute w-3/12 flex flex-col bg-white z-20 right-32 top-16 p-1.5 rounded-lg"
-          >
-            <div class="flex flex-row justify-between">
-              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
-              <p class="text-[#8e8e8e] text-sm">now</p>
-            </div>
-            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
-            <p class="text-sm">Awaiting Restaurant acceptance</p>
+          <div class="absolute -bottom-2 -left-16">
+            <img src="./images/ordering-page/3.4.svg" alt="" class="" />
           </div>
-          <!-- number 1 -->
-          <p class="absolute right-36 top-7 text-5xl text-white font-medium">
-            1
-          </p>
-        </div>
-        <!-- text 2 -->
-        <div class="">
-          <div
-            class="absolute w-3/12 flex flex-col bg-white z-20 right-24 top-48 p-1.5 rounded-lg"
-          >
-            <div class="flex flex-row justify-between">
-              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
-              <p class="text-[#8e8e8e]">now</p>
-            </div>
-            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
-            <p class="text-sm">Awaiting Restaurant acceptance</p>
-          </div>
-          <!-- number 2 -->
-          <p class="absolute right-28 top-36 text-5xl text-white font-medium">
-            2
-          </p>
-        </div>
-        <!-- text 3 -->
-        <div class="">
-          <div
-            class="absolute w-3/12 flex flex-col bg-white z-20 right-28 bottom-5 p-1.5 rounded-lg"
-          >
-            <div class="flex flex-row justify-between">
-              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
-              <p class="text-[#8e8e8e]">now</p>
-            </div>
-            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
-            <p class="text-sm">Awaiting Restaurant acceptance</p>
-          </div>
-          <!-- number 1 -->
-          <p
-            class="absolute right-32 bottom-24 text-5xl text-white font-medium"
-          >
-            3
-          </p>
         </div>
       </section>
-      <!-- exclusive deals -->
-      <section class="flex flex-col gap-7 py-5">
-        <!-- exclusive nav -->
+      <!-- order section -->
+      <section class="flex flex-col gap-7 py-5 mt-8">
+        <!-- menu nav -->
         <div class="flex flex-row justify-between items-center">
           <!-- left site -->
-          <h1 class="text-2xl font-bold">
-            Up to -40% 🎊 Order.uk exclusive deals
-          </h1>
-          <!-- right site -->
-          <div class="flex flex-row gap-5 justify-center items-center">
-            <!-- button 1 -->
-            <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
-            >
-              Vegan
-            </button>
-            <!-- button 2 -->
-            <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
-            >
-              Sushi
-            </button>
-            <!-- button 3 -->
-            <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
-            >
-              Pizza & Fast food
-            </button>
-            <!-- button 4 -->
-            <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
-            >
-              Others
-            </button>
+          <h1 class="text-2xl font-bold">Order from Tandoori Pizza London</h1>
+          <!-- right/input -->
+          <div class="relative flex flex-row justify-center items-center gap-3">
+            <img
+              src="./images/ordering-page/Search More.svg"
+              alt=""
+              class="absolute top-3 left-10"
+            />
+            <input
+              placeholder="Search from menu"
+              type="text"
+              class="border-2 border-black pl-20 py-3 rounded-full"
+            />
           </div>
         </div>
-        <!-- card -->
+        <!-- menu -->
         <div class="flex flex-row gap-5">
-          <!-- card1 -->
-          <div class="w-4/12 relative">
-            <img src="./images/home/Group 8.svg" alt="" class="" />
-            <div class="">
-              <div class="absolute bottom-5 left-5">
-                <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white">Chef Burgers London</h3>
-              </div>
+          <!-- left -->
+          <div class="flex flex-col gap-5">
+            <!-- top -->
+            <div
+              class="bg-[#fbfbfb] flex flex-col gap-5 rounded-md shadow shadow-gray-500"
+            >
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white"
+                class="flex flex-row justify-start items-center gap-3 px-5 mt-2"
               >
-                -40%
+                <img
+                  src="./images/ordering-page/Restaurant Menu.svg"
+                  alt=""
+                  class=""
+                />
+                <h1 class="text-2xl font-bold">Menu</h1>
+              </div>
+              <!-- items list -->
+              <div class="flex flex-col gap-1.5 p-1 rounded-md">
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Pizza
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Garlic Bread
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Calzone
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Kebabas
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Salads
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Cold Drinks
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Happy Meal
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Dessserts
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Hot Drinks
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Sauces
+                </p>
+                <p
+                  class="text-2xl font-semibold hover:bg-black hover:text-white p-3 rounded-md"
+                >
+                  Orbit
+                </p>
+              </div>
+            </div>
+            <!-- bottom -->
+            <div class="relative shadow shadow-gray-500 rounded-lg">
+              <img src="./images/ordering-page/menuphone.svg" alt="" class="" />
+              <div class="">
+                <!-- relative and absulate sit -->
+                <div class="absolute bottom-5 left-5">
+                  <span class="text-[#fc8a06]">Spaciel Offer</span>
+                  <h3 class="text-white">First Order Discount</h3>
+                </div>
+                <!-- 20% offer -->
+                <div
+                  class="absolute p-2 top-0 left-6 rounded-b-lg bg-black text-white"
+                >
+                  -20%
+                </div>
+                <!-- adding -->
+                <div
+                  class="absolute p-2 bottom-0 right-0 rounded-tl-2xl bg-white/80 text-center text-black font-bold text-3xl w-14"
+                >
+                  +
+                </div>
               </div>
             </div>
           </div>
-          <!-- card2 -->
-          <div class="w-4/12 relative">
-            <img src="./images/home/Group9.svg" alt="" class="" />
-            <div class="">
-              <div class="absolute bottom-5 left-5">
-                <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white">Grand Ai Cafe London</h3>
-              </div>
+          <!-- mid -->
+          <div class="flex flex-col gap-4">
+            <!-- top-mid -->
+            <div class="flex flex-row justify-between items-center">
+              <!-- left site -->
+              <h1 class="text-2xl font-bold">Pizzs</h1>
+              <!-- right/input -->
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white"
+                class="flex flex-row justify-center items-center gap-3 bg-[#fbfbfb] p-2 rounded-full"
               >
-                -20%
+                <p class="">Sort by Pricing</p>
+                <img
+                  src="./images/ordering-page/Forward Button.svg"
+                  alt=""
+                  class="top-2.5 right-3"
+                />
+              </div>
+            </div>
+            <!-- card 1 -->
+            <div
+              class="flex flex-col shadow-gray-400 shadow-xl border p-5 rounded-md"
+            >
+              <!-- top -->
+              <div
+                class="flex flex-row gap-3 justify-between items-center mb-3"
+              >
+                <div class="flex flex-col gap-2">
+                  <h3 class="text- font-semibold">Farm House Xtreme Pizza</h3>
+                  <!-- chilli -->
+                  <div class="flex flex-row">
+                    <img
+                      src="./images/ordering-page/chilli-red.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilli-red.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                  <p class="text-xs">
+                    1 McChicken™, 1 Big Mac™, 1 Royal <br />
+                    Cheeseburger, 3 medium sized French Fries , <br />
+                    3 cold drinks
+                  </p>
+                </div>
+                <!-- pizza img -->
+                <img
+                  src="./images/ordering-page/pizzaaaaa.svg"
+                  alt=""
+                  class="pl-20"
+                />
+              </div>
+              <!-- price -->
+              <div class="flex flex-col gap-2">
+                <!-- size -->
+                <div class="flex flex-row gap-2">
+                  <!-- small -->
+                  <div
+                    class="bg-black flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs text-white p-1">small</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $21.90
+                    </div>
+                  </div>
+                  <!-- medium -->
+                  <div
+                    class="border flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs p-1">Medium</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $25.90
+                    </div>
+                  </div>
+                  <!-- large -->
+                  <div
+                    class="border flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs p-1">Large</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $27.90
+                    </div>
+                  </div>
+                </div>
+                <!-- XL size -->
+                <div
+                  class="w-6/12 border flex flex-row justify-between items-center rounded-md p-1"
+                >
+                  <p class="text-xs p-1">XL Large with Sauces</p>
+                  <div
+                    class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                  >
+                    $32.90
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div
+              class="flex flex-col shadow-gray-400 shadow-xl border p-5 rounded-md"
+            >
+              <!-- top -->
+              <div
+                class="flex flex-row gap-3 justify-between items-center mb-3"
+              >
+                <div class="flex flex-col gap-2">
+                  <h3 class="text- font-semibold">Deluxe Pizza</h3>
+                  <!-- chilli -->
+                  <div class="flex flex-row">
+                    <img
+                      src="./images/ordering-page/chilli-red.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilli-red.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                  <p class="text-xs">
+                    1 McChicken™, 1 Big Mac™, 1 Royal <br />
+                    Cheeseburger, 3 medium sized French Fries , <br />
+                    3 cold drinks
+                  </p>
+                </div>
+                <!-- pizza img -->
+                <img
+                  src="./images/ordering-page/deluxe pizza.svg"
+                  alt=""
+                  class="pl-20"
+                />
+              </div>
+              <!-- price -->
+              <div class="flex flex-col gap-2">
+                <!-- size -->
+                <div class="flex flex-row gap-2">
+                  <!-- small -->
+                  <div
+                    class="bg-black flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs text-white p-1">small</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $21.90
+                    </div>
+                  </div>
+                  <!-- medium -->
+                  <div
+                    class="border flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs p-1">Medium</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $25.90
+                    </div>
+                  </div>
+                  <!-- large -->
+                  <div
+                    class="border flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs p-1">Large</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $27.90
+                    </div>
+                  </div>
+                </div>
+                <!-- XL size -->
+                <div
+                  class="w-6/12 border flex flex-row justify-between items-center rounded-md p-1"
+                >
+                  <p class="text-xs p-1">XL Large with Sauces</p>
+                  <div
+                    class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                  >
+                    $32.90
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div
+              class="flex flex-col shadow-gray-400 shadow-xl border p-5 rounded-md"
+            >
+              <!-- top -->
+              <div
+                class="flex flex-row gap-3 justify-between items-center mb-3"
+              >
+                <div class="flex flex-col gap-2">
+                  <h3 class="text- font-semibold">Tandoori Pizza</h3>
+                  <!-- chilli -->
+                  <div class="flex flex-row">
+                    <img
+                      src="./images/ordering-page/chilli-red.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilli-red.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                    <img
+                      src="./images/ordering-page/chilligreen.svg"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                  <p class="text-xs">
+                    1 McChicken™, 1 Big Mac™, 1 Royal <br />
+                    Cheeseburger, 3 medium sized French Fries , <br />
+                    3 cold drinks
+                  </p>
+                </div>
+                <!-- pizza img -->
+                <img
+                  src="./images/ordering-page/tandori pizza.svg"
+                  alt=""
+                  class="pl-20"
+                />
+              </div>
+              <!-- price -->
+              <div class="flex flex-col gap-2">
+                <!-- size -->
+                <div class="flex flex-row gap-2">
+                  <!-- small -->
+                  <div
+                    class="bg-black flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs text-white p-1">small</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $21.90
+                    </div>
+                  </div>
+                  <!-- medium -->
+                  <div
+                    class="border flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs p-1">Medium</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $25.90
+                    </div>
+                  </div>
+                  <!-- large -->
+                  <div
+                    class="border flex flex-row justify-between items-center rounded-md p-1"
+                  >
+                    <p class="text-xs p-1">Large</p>
+                    <div
+                      class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                    >
+                      $27.90
+                    </div>
+                  </div>
+                </div>
+                <!-- XL size -->
+                <div
+                  class="w-6/12 border flex flex-row justify-between items-center rounded-md p-1"
+                >
+                  <p class="text-xs p-1">XL Large with Sauces</p>
+                  <div
+                    class="bg-green-600 p-1 text-xs text-white m-1 rounded-sm"
+                  >
+                    $32.90
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!-- card3 -->
-          <div class="w-4/12 relative">
-            <img src="./images/home/Group 8.svg" alt="" class="" />
-            <div class="">
-              <div class="absolute bottom-5 left-5">
-                <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white">Butterbrot Caf’e London</h3>
-              </div>
-              <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white"
-              >
-                -17%
-              </div>
-            </div>
-          </div>
+          <!-- right -->
+          <div class=""></div>
         </div>
       </section>
+
       <!-- popular categories -->
       <section class="flex flex-col gap-7 py-5">
-        <!-- popular nav -->
+        <!--  nav -->
         <div class="flex flex-row justify-between items-center">
           <!-- left site -->
-          <h1 class="text-2xl font-bold">Order.uk Popular Categories 🤩</h1>
-        </div>
-        <!-- card -->
-        <div class="flex flex-row gap-5">
-          <!-- card1 -->
-          <div class="w-2/12 relative">
-            <img src="./images/home/Rectangle 13.svg" alt="" class="" />
-
-            <div
-              class="absolute -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Burgers & Fast food</h3>
-              <span class="text-[#fc8a06]">21 Restaurants</span>
-            </div>
-          </div>
-          <!-- card2 -->
-          <div class="w-2/12 relative">
-            <img src="./images/home/Rectangle 15.svg" alt="" class="" />
-
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[25px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Sales</h3>
-              <span class="text-[#fc8a06]">32 Restaurants</span>
-            </div>
-          </div>
-          <!-- card3 -->
-          <div class="w-2/12 relative">
-            <img src="./images/home/Rectangle 17.svg" alt="" class="" />
-
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Pasta & Casuals</h3>
-              <span class="text-[#fc8a06]">4 Restaurants</span>
-            </div>
-          </div>
-          <!-- card4 -->
-          <div class="w-2/12 relative">
-            <img src="./images/home/Rectangle 19.svg" alt="" class="" />
-
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Pizza</h3>
-              <span class="text-[#fc8a06]">32 Restaurants</span>
-            </div>
-          </div>
-          <!-- card5 -->
-          <div class="w-2/12 relative">
-            <img src="./images/home/Rectangle 21.svg" alt="" class="" />
-
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Breakfast</h3>
-              <span class="text-[#fc8a06]">4 Restaurants</span>
-            </div>
-          </div>
-          <!-- card6 -->
-          <div class="w-2/12 relative">
-            <img src="./images/home/Rectangle 23.svg" alt="" class="" />
-
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Soups</h3>
-              <span class="text-[#fc8a06]">32 Restaurants</span>
+          <div class="flex flex-row justify-between items-center px-5 py-10">
+            <!-- left site -->
+            <h1 class="text-2xl font-bold">Know more about us!</h1>
+            <!-- right site -->
+            <div class="flex flex-row gap-5 justify-center items-center">
+              <!-- button 1 -->
+              <button
+                class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              >
+                Frequent Questions
+              </button>
+              <!-- button 2 -->
+              <button
+                class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              >
+                Who we are?
+              </button>
+              <!-- button 3 -->
+              <button
+                class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              >
+                Partner Program
+              </button>
+              <!-- button 4 -->
+              <button
+                class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              >
+                Help & Support
+              </button>
             </div>
           </div>
         </div>
@@ -523,7 +799,7 @@
       <!-- know more section -->
       <section class="bg-[#f4f4f4] my-7 px-16 rounded-md border">
         <!-- know more nav  -->
-        <div class="flex flex-row justify-between items-center p-5">
+        <div class="flex flex-row justify-between items-center px-5 py-10">
           <!-- left site -->
           <h1 class="text-2xl font-bold">Know more about us!</h1>
           <!-- right site -->
@@ -555,9 +831,9 @@
           </div>
         </div>
         <!-- order system -->
-        <div class="flex flex-row bg-white p-5 mb-5 rounded-md">
+        <div class="flex flex-row bg-white p-5 mx-4 mb-5 rounded-md">
           <!-- left sit -->
-          <div class="w-5/12 font-bold flex flex-col gap-5">
+          <div class="w-4/12 font-bold flex flex-col gap-5">
             <button class="bg-[#fc8a06] rounded-full py-3 px-5">
               How does Order.UK work?
             </button>

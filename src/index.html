@@ -9,7 +9,7 @@
   <body>
     <!-- header -->
     <header
-      class="max-w-7xl mx-auto pl-10 bg-[#fafafa] flex flex-row gap-5 rounded-b-lg"
+      class="max-w-7xl mx-auto lg:visible md:visible hidden pl-10 bg-[#fafafa] flex flex-row gap-5 rounded-b-lg"
     >
       <!-- left -->
       <div class="w-4/12 flex flex-row gap-2 justify-start items-center">
@@ -59,6 +59,14 @@
         </div>
       </div>
     </header>
+    <div
+      class="lg:hidden md:hidden flex flex-row justify-between items-center p-5"
+    >
+      <img src="./images/home/LOGO 1.svg" alt="" class="" />
+      <div class="border-l-2">
+        <img src="./images/home/Menubar.svg" alt="" class="" />
+      </div>
+    </div>
     <!-- nav -->
     <nav
       class="max-w-7xl mx-auto flex flex-row justify-center items-center gap-5 py-7"
@@ -73,17 +81,29 @@
       </div>
       <!-- mid -->
       <div class="w-8/12 flex flex-row justify-center items-center gap-5">
-        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1">Home</a>
-        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+        <a
+          href=""
+          class="hover:bg-[#fc8a06] hover:text-white rounded-full px-4 py-1"
+          >Home</a
+        >
+        <a
+          href=""
+          class="hover:bg-[#fc8a06] hover:text-white rounded-full px-4 py-1"
           >Browse Menu</a
         >
-        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+        <a
+          href=""
+          class="hover:bg-[#fc8a06] hover:text-white rounded-full px-4 py-1"
           >Special Offers</a
         >
-        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+        <a
+          href=""
+          class="hover:bg-[#fc8a06] hover:text-white rounded-full px-4 py-1"
           >Restaurants</a
         >
-        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+        <a
+          href=""
+          class="hover:bg-[#fc8a06] hover:text-white rounded-full px-4 py-1"
           >Track Order</a
         >
       </div>
@@ -198,7 +218,7 @@
       <!-- exclusive deals -->
       <section class="flex flex-col gap-7 py-5">
         <!-- exclusive nav -->
-        <div class="flex flex-row justify-between items-center">
+        <div class="flex flex-row justify-between items-center py-5">
           <!-- left site -->
           <h1 class="text-2xl font-bold">
             Up to -40% 🎊 Order.uk exclusive deals
@@ -239,10 +259,12 @@
             <div class="">
               <div class="absolute bottom-5 left-5">
                 <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white">Chef Burgers London</h3>
+                <h3 class="text-white text-xl font-bold">
+                  Chef Burgers London
+                </h3>
               </div>
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white"
+                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white font-bold"
               >
                 -40%
               </div>
@@ -254,10 +276,12 @@
             <div class="">
               <div class="absolute bottom-5 left-5">
                 <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white">Grand Ai Cafe London</h3>
+                <h3 class="text-white text-xl font-bold">
+                  Grand Ai Cafe London
+                </h3>
               </div>
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white"
+                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white font-bold"
               >
                 -20%
               </div>
@@ -269,10 +293,12 @@
             <div class="">
               <div class="absolute bottom-5 left-5">
                 <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white">Butterbrot Caf’e London</h3>
+                <h3 class="text-white text-xl font-bold">
+                  Butterbrot Caf’e London
+                </h3>
               </div>
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white"
+                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white font-bold"
               >
                 -17%
               </div>
@@ -521,9 +547,9 @@
         </div>
       </section>
       <!-- know more section -->
-      <section class="bg-[#f4f4f4] my-7 px-16 rounded-md border">
+      <section class="bg-[#f4f4f4] my-7 px-16 py-10 rounded-md border">
         <!-- know more nav  -->
-        <div class="flex flex-row justify-between items-center p-5">
+        <div class="flex flex-row justify-between items-center p-5 py-8">
           <!-- left site -->
           <h1 class="text-2xl font-bold">Know more about us!</h1>
           <!-- right site -->
@@ -625,28 +651,28 @@
         <div class="w-3/12">
           <div class="border-r flex flex-col items-center justify-center">
             <h5 class="text-4xl text-white pr-4">546+</h5>
-            <p class="text-white font-semibold">Registered Riders</p>
+            <p class="text-white font-bold text-xl">Registered Riders</p>
           </div>
         </div>
         <!-- 2 -->
         <div class="w-3/12">
           <div class="border-r flex flex-col items-center justify-center">
             <h5 class="text-4xl text-white pr-4">789,900+</h5>
-            <p class="text-white font-semibold">Orders Deliverd</p>
+            <p class="text-white font-bold text-xl">Orders Deliverd</p>
           </div>
         </div>
         <!-- 3 -->
         <div class="w-3/12">
           <div class="border-r flex flex-col items-center justify-center">
             <h5 class="text-4xl text-white pr-4">690+</h5>
-            <p class="text-white font-semibold">Restaurants Partnered</p>
+            <p class="text-white font-bold text-xl">Restaurants Partnered</p>
           </div>
         </div>
         <!-- 4 -->
         <div class="w-3/12 py-5">
           <div class="border-r flex flex-col items-center justify-center">
             <h5 class="text-4xl text-white pr-4">17,457+</h5>
-            <p class="text-white font-semibold">Food items</p>
+            <p class="text-white font-bold text-xl">Food items</p>
           </div>
         </div>
       </section>
@@ -680,7 +706,7 @@
           <input
             type="email"
             placeholder="youremail@gmail.com"
-            class="bg-[#d9d9d9] py-[15px] pl-6 rounded-l-full"
+            class="bg-[#d9d9d9] py-[15px] pl-6 outline-none rounded-l-full"
           />
           <button
             class="absolute rounded-full bg-[#fc8a06] px-10 py-4 right-12 bottom-4"
@@ -714,18 +740,18 @@
         <!-- 1 -->
         <div class="flex flex-col gap-5">
           <h3 class="font-bold text-lg">Legal Pages</h3>
-          <a href="" class=""> Terms and conditions </a>
-          <a href="" class=""> Privacy </a>
-          <a href="" class=""> Cookies </a>
-          <a href="" class=""> Modern Slavery Statement </a>
+          <a href="" class="underline"> Terms and conditions </a>
+          <a href="" class="underline"> Privacy </a>
+          <a href="" class="underline"> Cookies </a>
+          <a href="" class="underline"> Modern Slavery Statement </a>
         </div>
         <!-- 1 -->
         <div class="flex flex-col gap-5">
-          <h3 class="font-bold text-lg">Legal Pages</h3>
-          <a href="" class=""> Terms and conditions </a>
-          <a href="" class=""> Privacy </a>
-          <a href="" class=""> Cookies </a>
-          <a href="" class=""> Modern Slavery Statement </a>
+          <h3 class="font-bold text-lg">Important Links</h3>
+          <a href="" class="underline"> Get help</a>
+          <a href="" class="underline"> Add your restaurant </a>
+          <a href="" class="underline"> Sign up to deliver </a>
+          <a href="" class="underline"> Create a business account </a>
         </div>
       </div>
     </section>

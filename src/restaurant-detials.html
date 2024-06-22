@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>restaurant-details-page</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="max-w-7xl mx-auto pl-16 bg-[#fafafa] flex flex-row gap-5 rounded-b-lg"
+    >
+      <!-- left -->
+      <div class="w-4/12 flex flex-row gap-2 justify-start items-center">
+        <img src="./images/home/🌟.png" alt="" class="" />
+        <p class="text-xs font-bold">
+          Get 5% Off your first order,
+          <span class="text-[#fc8e0e] text-xs cursor-pointer"
+            >Promo: ORDER5</span
+          >
+        </p>
+      </div>
+      <!-- mid -->
+      <div class="w-5/12 flex flex-row gap-2 justify-end items-center">
+        <img src="./images/home/Location.svg" alt="" class="cursor-pointer" />
+        <p class="text-xs font-bold">Regent Street, A4, A4201, London</p>
+        <span class="text-[#fc8e0e] text-xs underline font-bold cursor-pointer"
+          >Change Location</span
+        >
+      </div>
+      <!-- right -->
+      <div
+        class="w-4/12 flex flex-row gap-4 justify-center items-center bg-[#028643] rounded-b-lg"
+      >
+        <div class="w-4/12 border-r py-3">
+          <img
+            src="./images/home/Full Shopping Basket.svg"
+            alt=""
+            class="pl-7 cursor-pointer"
+          />
+        </div>
+        <div
+          class="w-3/12 border-r h-full flex flex-row items-center justify-center"
+        >
+          <p class="text-xs font-bold text-white pr-4">23 Items</p>
+        </div>
+        <div
+          class="w-3/12 border-r h-full flex flex-row items-center justify-center"
+        >
+          <p class="text-xs font-bold text-white pr-5">GBP 79.89</p>
+        </div>
+        <div class="w-2/12">
+          <img
+            src="./images/home/Forward Button.svg"
+            alt=""
+            class="pr-4 cursor-pointer"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- nav -->
+    <nav
+      class="max-w-7xl mx-auto flex flex-row justify-center items-center gap-5 px-16 py-7"
+    >
+      <!-- left -->
+      <div class="w-2/12">
+        <img
+          src="./images/home/LOGO 1.svg"
+          alt=""
+          class="w-32 h-12 cursor-pointer"
+        />
+      </div>
+      <!-- mid -->
+      <div class="w-8/12 flex flex-row justify-center items-center gap-5">
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1">Home</a>
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Browse Menu</a
+        >
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Special Offers</a
+        >
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Restaurants</a
+        >
+        <a href="" class="hover:bg-[#fc8a06] rounded-full px-4 py-1"
+          >Track Order</a
+        >
+      </div>
+      <!-- right -->
+      <button
+        class="w-2/12 bg-black flex flex-row justify-center items-center gap-3 rounded-full py-3"
+      >
+        <img src="./images/home/Male User.svg" alt="" />
+        <p class="text-white">Login/signup</p>
+      </button>
+    </nav>
+     
+      <!-- tandoori pizza section -->
+      <section
+        class="max-w-7xl mx-auto w-full flex flex-row rounded-lg py-14 bg-[#E2E2E2]/90 bg-[url('/images/Group 23.png')]"
+      >
+        <!-- left -->
+        <div
+          class="relative w-7/12 flex flex-col gap-4 px-16 py-20 justify-end"
+        >
+          <p class="">I'm lovin' it!</p>
+          <h1 class="text-5xl font-bold">McDonald's East London</h1>
+          <div class="flex flex-row gap-4">
+            <!--  -->
+            <div
+              class="w-1/2 bg-black flex flex-row gap-3 justify-center items-center px-4 py-3 rounded-full text-white"
+            >
+              <img src="./images/ordering-page/note.svg" alt="" class="" />
+              <p class="">Minimum Order: 12 GBP</p>
+            </div>
+            <!-- ritht -->
+            <div
+              class="bg-black flex flex-row gap-3 justify-center items-center px-4 py-3 rounded-full text-white"
+            >
+              <img src="./images/ordering-page/Motocross.svg" alt="" class="" />
+              <p class="">Delivery in 20-25 Minutes</p>
+            </div>
+          </div>
+          <!-- clock -->
+          <div
+            class="flex flex-row justify-center items-center gap-3 absolute -bottom-20 left-0 bg-[#fc8a06] px-4 py-3 rounded-r-lg text-white"
+          >
+            <img src="./images/ordering-page/Clock.svg" alt="" class="w-8" />
+            <p class="">Open until 3:00 AM</p>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="w-5/12 relative pr-16">
+          <img
+            src="./images/restaurant-daitels-page/Rectangle 44.svg"
+            alt=""
+            class=""
+          />
+          <div class="absolute -bottom-2 -left-16">
+            <img src="./images/ordering-page/3.4.svg" alt="" class="" />
+          </div>
+        </div>
+      </section>
+      <!-- order section -->
+      <section class="max-w-7xl mx-auto flex flex-col gap-7 py-10 mt-8">
+        <!-- menu nav -->
+        <div class="flex flex-row justify-between items-center">
+          <!-- left site -->
+          <h1 class="text-2xl font-bold">All Offers from McDonald's East London</h1>
+          <!-- right/input -->
+          <div class="relative flex flex-row justify-center items-center gap-3">
+            <img
+              src="./images/ordering-page/Search More.svg"
+              alt=""
+              class="absolute top-3 left-10"
+            />
+            <input
+              placeholder="Search from menu"
+              type="text"
+              class="border-2 border-black pl-20 py-3 rounded-full"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- offers -->
+      <section class="flex flex-col bg-[#e8e8e8] px-28 py-8 mt-20">
+      <!-- nav -->
+      <div class="flex flex-row justify-between items-center">
+        <h1 class="text-2xl font-bold">Customer Reviews</h1>
+        <!-- left arrow -->
+        <div class="flex flex-row gap-2">
+          <div class="bg-[#fc8a06] p-2 rounded-full">
+            <img src="./images/ordering-page/BackL.svg" alt="" class="" />
+          </div>
+          <!-- right arrow -->
+          <div class="bg-[#fc8a06] p-2 rounded-full">
+            <img src="./images/ordering-page/BackR.svg" alt="" class="" />
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="flex flex-row gap-5"></div>
+    </section>
+      <!-- delivary dection -->
+      <section class="flex flex-row border">
+        <!-- left -->
+        <div class="w-8/12 px-5 py-12 flex flex-row">
+          <!-- left -->
+          <div class="w-1/2 flex flex-col gap-2">
+            <div class="flex flex-row justify-start items-center gap-2">
+              <img src="./images/ordering-page/Tracking.svg" alt="" class="" />
+              <h3 class="text-xl font-bold">Delivery information</h3>
+            </div>
+            <div class="leading-10">
+              <p class="">
+                <span class="font-bold">Monday:</span> 12:00 AM–3:00 AM, 8:00
+                AM–3:00 AM <br />
+                <span class="font-bold">Tuesday:</span> 8:00 AM–3:00 AM <br />
+                <span class="font-bold">Wednesday:</span> 8:00 AM–3:00 AM
+                <br />Thursday: 8:00 AM–3:00 AM
+                <br />
+                <span class="font-bold">Friday:</span> 8:00 AM–3:00 AM <br />
+                <span class="font-bold">Saturday:</span> 8:00 AM–3:00 AM <br />
+                <span class="font-bold">Sunday:</span> 8:00 AM–12:00 AM <br />
+                Estimated time until delivery: 20 min
+              </p>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="w-1/2 flex flex-col gap-2">
+            <div class="flex flex-row justify-start items-center gap-2">
+              <img
+                src="./images/ordering-page/ID Verified.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="text-xl font-bold">Contact information</h3>
+            </div>
+            <div class="leading-10">
+              <p class="leading-10">
+                If you have allergies or other dietary <br />
+                restrictions, please contact the restaurant. The <br />
+                restaurant will provide food-specific <br />
+                information upon request. <br />
+                Phone number +934443-43 <br />
+                Website <br />
+                http://mcdonalds.uk/
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-4/12 bg-black px-5 py-12 rounded-r-md">
+          <div class="flex flex-row justify-start items-center gap-2">
+            <img
+              src="./images/ordering-page/Clock delivery.svg"
+              alt=""
+              class=""
+            />
+            <h3 class="text-xl font-bold text-white">Delivery information</h3>
+          </div>
+          <div class="">
+            <p class="text-white leading-10">
+              <span class="font-bold">Monday:</span> 12:00 AM–3:00 AM, 8:00
+              AM–3:00 AM <br />
+              <span class="font-bold">Tuesday:</span> 8:00 AM–3:00 AM <br />
+              <span class="font-bold">Wednesday:</span> 8:00 AM–3:00 AM
+              <br />Thursday: 8:00 AM–3:00 AM
+              <br />
+              <span class="font-bold">Friday:</span> 8:00 AM–3:00 AM <br />
+              <span class="font-bold">Saturday:</span> 8:00 AM–3:00 AM <br />
+              <span class="font-bold">Sunday:</span> 8:00 AM–12:00 AM <br />
+              Estimated time until delivery: 20 min
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- map section -->
+      <section
+        class="relative bg-[url('./images/ordering-page/map.svg')] p-10 my-20 rounded-md"
+      >
+        <div class="bg-black w-4/12 rounded-md p-5 flex flex-col gap-3">
+          <h2 class="text-2xl font-bold text-white">McDonald's</h2>
+          <span class="text-[#fc8a06]">South London</span>
+          <p class="text-white">
+            Tooley St, London Bridge, London SE1 2TF, <br />
+            United Kingdom
+          </p>
+          <p class="text-white font-bold">Phone number</p>
+          <span class="text-[#fc8a06] text-lg">+934443-43</span>
+          <p class="text-white font-bold">Website</p>
+          <span class="text-[#fc8a06] text-lg">http://mcdonalds.uk/</span>
+        </div>
+        <div
+          class="absolute right-12 top-32 rounded-lg border bg-white px-8 py-3 flex flex-col justify-center items-center"
+        >
+          <h3 class="font-bold">McDonald</h3>
+          <p class="">South London</p>
+        </div>
+        <div
+          class="absolute right-8 top-28 bg-black rounded-full w-14 h-14 flex justify-center items-center"
+        >
+          <img src="./images/ordering-page/arrowLocation.svg" alt="" class="" />
+        </div>
+      </section>
+    
+    <!-- customer Reviews -->
+    <section class="flex flex-col bg-[#e8e8e8] px-28 py-8 mt-20">
+      <!-- nav -->
+      <div class="flex flex-row justify-between items-center">
+        <h1 class="text-2xl font-bold">Customer Reviews</h1>
+        <!-- left arrow -->
+        <div class="flex flex-row gap-2">
+          <div class="bg-[#fc8a06] p-2 rounded-full">
+            <img src="./images/ordering-page/BackL.svg" alt="" class="" />
+          </div>
+          <!-- right arrow -->
+          <div class="bg-[#fc8a06] p-2 rounded-full">
+            <img src="./images/ordering-page/BackR.svg" alt="" class="" />
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="flex flex-row gap-5"></div>
+    </section>
+    <!-- popular restaurant section -->
+    <section class="max-w-7xl mx-auto flex flex-col gap-7 py-5 pt-20">
+      <!-- popular nav -->
+      <div class="flex flex-row justify-between items-center">
+        <!-- left site -->
+        <h1 class="text-2xl font-bold">Similar Restaurant</h1>
+      </div>
+      <!-- card -->
+      <div class="flex flex-row gap-5">
+        <!-- card1 -->
+        <div class="w-2/12 relative">
+          <img src="./images/home/Rectangle1.svg" alt="" class="" />
+
+          <div
+            class="absolute w-full -bottom left-0 bg-[#fc8a06] px-[23px] py-3 rounded-b-xl"
+          >
+            <h3 class="font-bold text-white">McDonald's London</h3>
+          </div>
+        </div>
+        <!-- card2 -->
+        <div class="w-2/12 relative">
+          <img src="./images/home/Rectangle2.svg" alt="" class="" />
+
+          <div
+            class="absolute w-full -bottom left-0 bg-[#fc8a06] px-[23px] py-3 rounded-b-xl"
+          >
+            <h3 class="font-bold text-white">Papa Johns</h3>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div class="w-2/12 relative">
+          <img src="./images/home/Rectangle3.svg" alt="" class="" />
+
+          <div
+            class="absolute w-full -bottom left-0 bg-[#fc8a06] px-[23px] py-3 rounded-b-xl"
+          >
+            <h3 class="font-bold text-white">kFC London</h3>
+          </div>
+        </div>
+        <!-- card4 -->
+        <div class="w-2/12 relative">
+          <img src="./images/home/Rectangle4.svg" alt="" class="" />
+
+          <div
+            class="absolute w-full -bottom left-0 bg-[#fc8a06] px-[23px] py-3 rounded-b-xl"
+          >
+            <h3 class="font-bold text-white">Texas Chicken</h3>
+          </div>
+        </div>
+        <!-- card5 -->
+        <div class="w-2/12 relative">
+          <img src="./images/home/Rectangle5.svg" alt="" class="" />
+
+          <div
+            class="absolute w-full -bottom left-0 bg-[#fc8a06] px-[23px] py-3 rounded-b-xl"
+          >
+            <h3 class="font-bold text-white">Burger King</h3>
+          </div>
+        </div>
+        <!-- card6 -->
+        <div class="w-2/12 relative">
+          <img src="./images/home/Rectangle6.svg" alt="" class="" />
+
+          <div
+            class="absolute w-full -bottom left-0 bg-[#fc8a06] px-[23px] py-3 rounded-b-xl"
+          >
+            <h3 class="font-bold text-white">Sharma 1</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <section
+      class="flex flex-row justify-between items-center bg-[#e8e8e8] py-8 px-28 mt-20"
+    >
+      <!-- 1 -->
+      <div class="w-4/12 flex flex-col gap-5">
+        <img src="./images/home/LOGO 2.svg" alt="" class="w-60" />
+        <div class="flex flex-row gap-2">
+          <a href="" class="bg-black p-1 rounded-md w-5/12">
+            <img src="./images/home/apps store.svg" alt="" class="" />
+          </a>
+          <a href="" class="w-5/12">
+            <img src="./images/home/Group.svg" alt="" class="" />
+          </a>
+        </div>
+        <p class="text-base font-normal">
+          Company # 490039-445, Registered with <br />
+          House of companies.
+        </p>
+      </div>
+      <!-- 2 -->
+      <div class="w-4/12">
+        <h3 class="text-lg font-bold py-4">
+          Get Exclusive Deals in your Inbox
+        </h3>
+        <div class="relative text-lg font-medium py-4">
+          <input
+            type="email"
+            placeholder="youremail@gmail.com"
+            class="bg-[#d9d9d9] py-[15px] pl-6 rounded-l-full"
+          />
+          <button
+            class="absolute rounded-full bg-[#fc8a06] px-10 py-4 right-12 bottom-4"
+          >
+            Subscribe
+          </button>
+        </div>
+        <p class="">
+          we wont spam, read our
+          <span class="">
+            <a href="" class="underline">email policy</a>
+          </span>
+        </p>
+        <div class="flex flex-row gap-3 mt-5">
+          <a href="" class="">
+            <img src="./images/home/Facebook (1).svg" alt="" class="" />
+          </a>
+          <a href="" class="">
+            <img src="./images/home/Instagram (1).svg" alt="" class="" />
+          </a>
+          <a href="" class="">
+            <img src="./images/home/TikTok.svg" alt="" class="" />
+          </a>
+          <a href="" class="">
+            <img src="./images/home/Snapchat.svg" alt="" class="" />
+          </a>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="w-4/12 flex flex-row justify-between items-center">
+        <!-- 1 -->
+        <div class="flex flex-col gap-5">
+          <h3 class="font-bold text-lg">Legal Pages</h3>
+          <a href="" class=""> Terms and conditions </a>
+          <a href="" class=""> Privacy </a>
+          <a href="" class=""> Cookies </a>
+          <a href="" class=""> Modern Slavery Statement </a>
+        </div>
+        <!-- 1 -->
+        <div class="flex flex-col gap-5">
+          <h3 class="font-bold text-lg">Legal Pages</h3>
+          <a href="" class=""> Terms and conditions </a>
+          <a href="" class=""> Privacy </a>
+          <a href="" class=""> Cookies </a>
+          <a href="" class=""> Modern Slavery Statement </a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-[#03081f] text-white px-16 py-8">
+      <div class="max-w-7xl mx-auto flex flex-row justify-between items-center">
+        <div class="">
+          <p class="">Order.uk Copyright 2024, All Rights Reserved.</p>
+        </div>
+        <!--  -->
+        <div class="flex flex-row gap-5">
+          <a href="" class=""> Privacy Policy </a>
+          <a href="" class=""> Terms </a>
+          <a href="" class=""> Pricing </a>
+          <p class="">Do not sell or share my personal information</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

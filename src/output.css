@@ -718,6 +718,10 @@ video {
   top: 1.75rem;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -766,6 +770,11 @@ video {
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .mb-3 {
@@ -1549,6 +1558,10 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.outline {
+  outline-style: solid;
 }
 
 .hover\:border-\[1px\]:hover {

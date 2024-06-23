@@ -8,8 +8,9 @@
   </head>
   <body>
     <!-- header -->
+    <!-- header -->
     <header
-      class="max-w-7xl mx-auto pl-10 bg-[#fafafa] flex flex-row gap-5 rounded-b-lg"
+      class="max-w-7xl mx-auto pl-10 bg-[#fafafa] hidden lg:flex flex-row gap-5 rounded-b-lg"
     >
       <!-- left -->
       <div class="w-4/12 flex flex-row gap-2 justify-start items-center">
@@ -59,7 +60,7 @@
         </div>
       </div>
     </header>
-    <!-- for mobile responsive -->
+    <!-- mobile responsive -->
     <div
       class="lg:hidden md:hidden flex flex-row justify-between items-center p-5"
     >
@@ -68,9 +69,9 @@
         <img src="./images/home/Menubar.svg" alt="" class="" />
       </div>
     </div>
-    <!-- nav -->
+
     <nav
-      class="max-w-7xl mx-auto flex flex-row justify-center items-center gap-5 py-7"
+      class="max-w-7xl mx-auto hidden lg:flex md:flex flex-row justify-center items-center gap-5 py-7"
     >
       <!-- left -->
       <div class="w-2/12">
@@ -146,14 +147,14 @@
     <main class="max-w-7xl mx-auto">
       <!-- Feast your senses section -->
       <section
-        class="relative w-full flex flex-row bg-[#fbfbfb] rounded-md px-10"
+        class="relative w-full flex flex-row bg-[#e2e2e2] rounded-md px-10 m-3 md:m-0 lg:m-0"
       >
         <!-- left -->
-        <div class="w-6/12 flex flex-col gap-5 py-20">
+        <div class="lg:w-7/12 w-full flex flex-col gap-5 py-20">
           <p class="text-xs font-semibold py-2">
             Order Restaurant food, takeaway and groceries.
           </p>
-          <h1 class="text-5xl font-bold">
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
             Feast Your Senses, <br />
             <span class="text-[#fc8a06]">Fast and Fresh</span>
           </h1>
@@ -170,76 +171,76 @@
               Search
             </button>
           </div>
+          <!-- pizza pic -->
+          <div class="absolute right-[395px] bottom-0 z-20">
+            <img src="./images/home/pizza.svg" alt="" class="h-[390px]" />
+          </div>
         </div>
         <!-- right -->
         <div
-          class="absolute h-[390px] bottom-0 right-0 w-5/12 bg-[#fc8a06] rounded-l-full z-0"
-        ></div>
-        <!-- nodols pic -->
-        <div class="absolute right-80 bottom-0 z-10">
-          <img
-            src="./images/home/nodols.svg"
-            alt=""
-            class="max-w-96 h-[305px]"
-          />
-        </div>
-        <!-- pizza pic -->
-        <div class="absolute right-[395px] bottom-0 z-20">
-          <img src="./images/home/pizza.svg" alt="" class="h-[390px]" />
-        </div>
-        <!-- all text -->
-        <!-- text 1 -->
-        <div class="">
-          <div
-            class="absolute w-3/12 flex flex-col bg-white z-20 right-32 top-16 p-1.5 rounded-lg"
-          >
-            <div class="flex flex-row justify-between">
-              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
-              <p class="text-[#8e8e8e] text-sm">now</p>
-            </div>
-            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
-            <p class="text-sm">Awaiting Restaurant acceptance</p>
+          class="absolute hidden lg:block h-[390px] bottom-0 right-0 w-5/12 bg-[#fc8a06] rounded-l-full z-0"
+        >
+          <!-- nodols pic -->
+          <div class="absolute right-80 bottom-0 z-10">
+            <img
+              src="./images/home/nodols.svg"
+              alt=""
+              class="max-w-96 h-[305px]"
+            />
           </div>
-          <!-- number 1 -->
-          <p class="absolute right-36 top-7 text-5xl text-white font-medium">
-            1
-          </p>
-        </div>
-        <!-- text 2 -->
-        <div class="">
-          <div
-            class="absolute w-3/12 flex flex-col bg-white z-20 right-24 top-48 p-1.5 rounded-lg"
-          >
-            <div class="flex flex-row justify-between">
-              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
-              <p class="text-[#8e8e8e]">now</p>
+
+          <!-- all text -->
+          <!-- text 1 -->
+          <div class="">
+            <div
+              class="absolute w-1/2 flex flex-col bg-white z-20 right-32 top-12 p-1.5 rounded-lg"
+            >
+              <div class="flex flex-row justify-between">
+                <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
+                <p class="text-[#8e8e8e] text-sm">now</p>
+              </div>
+              <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
+              <p class="text-sm">Awaiting Restaurant acceptance</p>
             </div>
-            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
-            <p class="text-sm">Awaiting Restaurant acceptance</p>
+            <!-- number 1 -->
+            <p class="absolute right-36 text-5xl text-white font-medium">1</p>
           </div>
-          <!-- number 2 -->
-          <p class="absolute right-28 top-36 text-5xl text-white font-medium">
-            2
-          </p>
-        </div>
-        <!-- text 3 -->
-        <div class="">
-          <div
-            class="absolute w-3/12 flex flex-col bg-white z-20 right-28 bottom-5 p-1.5 rounded-lg"
-          >
-            <div class="flex flex-row justify-between">
-              <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
-              <p class="text-[#8e8e8e]">now</p>
+          <!-- text 2 -->
+          <div class="">
+            <div
+              class="absolute w-1/2 flex flex-col bg-white z-20 right-24 top-44 p-1.5 rounded-lg"
+            >
+              <div class="flex flex-row justify-between">
+                <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
+                <p class="text-[#8e8e8e]">now</p>
+              </div>
+              <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
+              <p class="text-sm">Awaiting Restaurant acceptance</p>
             </div>
-            <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
-            <p class="text-sm">Awaiting Restaurant acceptance</p>
+            <!-- number 2 -->
+            <p class="absolute right-28 top-32 text-5xl text-white font-medium">
+              2
+            </p>
           </div>
-          <!-- number 1 -->
-          <p
-            class="absolute right-32 bottom-24 text-5xl text-white font-medium"
-          >
-            3
-          </p>
+          <!-- text 3 -->
+          <div class="">
+            <div
+              class="absolute w-1/2 flex flex-col bg-white z-20 right-28 bottom-3 p-1.5 rounded-lg"
+            >
+              <div class="flex flex-row justify-between">
+                <img src="./images/home/LOGO 1.svg" alt="" class="w-16" />
+                <p class="text-[#8e8e8e]">now</p>
+              </div>
+              <h3 class="font-semibold text-sm">We’ve Received your order!</h3>
+              <p class="text-sm">Awaiting Restaurant acceptance</p>
+            </div>
+            <!-- number 1 -->
+            <p
+              class="absolute right-32 bottom-[87px] text-5xl text-white font-medium"
+            >
+              3
+            </p>
+          </div>
         </div>
       </section>
       <!-- exclusive deals -->
@@ -247,35 +248,68 @@
         <!-- exclusive nav -->
         <div class="flex flex-row justify-between items-center py-5">
           <!-- left site -->
-          <h1 class="text-2xl font-bold">
+          <h1 class="hidden md:block lg:block text-2xl font-bold">
             Up to -40% 🎊 Order.uk exclusive deals
           </h1>
+          <!-- responsive heading -->
+          <h1 class="md:hidden lg:hidden text-2xl font-bold">
+            Up to -40% Discount Offers 🎊
+          </h1>
           <!-- right site -->
-          <div class="flex flex-row gap-5 justify-center items-center">
+          <div
+            class="lg:flex md:flex flex-row gap-5 justify-center items-center hidden"
+          >
             <!-- button 1 -->
             <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              class="border-[1px] border-transparent hover:border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
             >
               Vegan
             </button>
             <!-- button 2 -->
             <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              class="border-[1px] border-transparent hover:border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
             >
               Sushi
             </button>
             <!-- button 3 -->
             <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              class="border-[1px] border-transparent hover:border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
             >
               Pizza & Fast food
             </button>
             <!-- button 4 -->
             <button
-              class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
+              class="border-[1px] border-transparent hover:border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
             >
               Others
             </button>
+          </div>
+          <!-- responsive dropdown -->
+          <div
+            class="flex md:hidden lg:hidden flex-row rounded-2xl border border-black py-2 px-3"
+          >
+            <img src="" alt="" />
+            <select
+              name="language"
+              id="menu"
+              class="bg-transparent poppins font-medium cursor-pointer outline-none"
+            >
+              <option
+                value="  Pizza & Fast food"
+                class="poppins font-medium text-black"
+              >
+                Pizza & Fast food
+              </option>
+              <option value="Sushi" class="poppins font-medium text-black">
+                Sushi
+              </option>
+              <option value="Vegan" class="poppins font-medium text-black">
+                Vegan
+              </option>
+              <option value="Others" class="poppins font-medium text-black">
+                Others
+              </option>
+            </select>
           </div>
         </div>
         <!-- card -->
@@ -341,7 +375,7 @@
           <h1 class="text-2xl font-bold">Order.uk Popular Categories 🤩</h1>
         </div>
         <!-- card -->
-        <div class="flex flex-row gap-5">
+        <div class="lg:flex md:flex grid grid-cols-2 flex-row gap-5">
           <!-- card1 -->
           <div class="w-2/12 relative cursor-pointer">
             <img src="./images/home/Rectangle 13.svg" alt="" class="" />

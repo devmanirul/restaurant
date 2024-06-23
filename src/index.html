@@ -62,10 +62,10 @@
     </header>
     <!-- mobile responsive -->
     <div
-      class="lg:hidden md:hidden flex flex-row justify-between items-center p-5"
+      class="lg:hidden md:hidden flex flex-row justify-between items-center px-2 py-5"
     >
-      <img src="./images/home/LOGO 1.svg" alt="" class="" />
-      <div class="border-l-2">
+      <img src="./images/home/LOGO 1.svg" alt="" class="w-1/2" />
+      <div class="border-l-2 pl-2">
         <img src="./images/home/Menubar.svg" alt="" class="" />
       </div>
     </div>
@@ -154,7 +154,7 @@
           <p class="text-xs font-semibold py-2">
             Order Restaurant food, takeaway and groceries.
           </p>
-          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+          <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold">
             Feast Your Senses, <br />
             <span class="text-[#fc8a06]">Fast and Fresh</span>
           </h1>
@@ -252,7 +252,7 @@
             Up to -40% 🎊 Order.uk exclusive deals
           </h1>
           <!-- responsive heading -->
-          <h1 class="md:hidden lg:hidden text-2xl font-bold">
+          <h1 class="md:hidden lg:hidden text-lg font-bold">
             Up to -40% Discount Offers 🎊
           </h1>
           <!-- right site -->
@@ -517,10 +517,10 @@
       </section>
       <!-- ordering is more -->
       <section
-        class="relative flex flex-row gap-5 bg-[#ececec] pr-16 w-full mt-24 rounded-lg"
+        class="relative flex flex-row gap-5 bg-[#ececec] lg:pr-16 md:pr-10 w-full mt-24 rounded-lg"
       >
         <!-- laufing pic -->
-        <div class="w-7/12 z-10">
+        <div class="lg:w-7/12 z-10 lg:block md:block hidden">
           <img
             src="./images/home/friends-laughing-using-mobiles 2.svg"
             alt=""
@@ -528,21 +528,21 @@
           />
         </div>
         <!-- right -->
-        <div class="relative w-5/12 flex flex-col gap-5 py-16">
+        <div class="relative max-lg:w-5/12 flex flex-col gap-5 py-16">
           <!-- order h1 -->
           <div class="flex flex-row items-center justify-start">
             <img
               src="./images/home/LOGO 1.svg"
               alt=""
-              class="h-[165px] w-[165px]"
+              class="lg:h-[165px] lg:w-[165px]"
             />
-            <p class="text-5xl font-bold">ing is more</p>
+            <p class="lg:text-5xl md:text-3xl text-xl font-bold">ing is more</p>
           </div>
           <!-- personalised & instant -->
           <div
-            class="bg-black rounded-full z-0 absolute top-52 -left-36 pl-40 pr-20"
+            class="lg:bg-black md:bg-black rounded-full z-0 absolute top-52 -left-36 lg:pl-40 md:pl-14 lg:pr-20 md:pr-14"
           >
-            <p class="text-white text-4xl text-center py-3">
+            <p class="lg:text-white md:white lg:text-4xl md:text-3xl text-2xl text-center py-3">
               <span class="text-[#fc8a06] underline">Personalised</span> &
               Instant
             </p>
@@ -614,7 +614,7 @@
           <!-- left site -->
           <h1 class="text-2xl font-bold">Know more about us!</h1>
           <!-- right site -->
-          <div class="flex flex-row gap-5 justify-center items-center">
+          <div class="lg:flex md:flex hidden flex-row gap-5 justify-center items-center">
             <!-- button 1 -->
             <button
               class="hover:border-[1px] border-[#fc8a06] hover:text-[#fc8a06] rounded-full px-5 py-1"
@@ -642,7 +642,7 @@
           </div>
         </div>
         <!-- order system -->
-        <div class="flex flex-row bg-white p-5 mb-5 rounded-md">
+        <div class="flex lg:flex-row md:flex-row flex-col bg-white p-5 mb-5 rounded-md">
           <!-- left sit -->
           <div class="w-5/12 font-bold flex flex-col gap-5">
             <button class="bg-[#fc8a06] rounded-full py-3 px-5">
@@ -658,7 +658,7 @@
           <!-- right sit -->
           <div class="w-7/12 flex flex-col justify-center items-center gap-5">
             <!-- cards -->
-            <div class="flex flex-row gap-4">
+            <div class="flex lg:flex-row md:flex-row flex-col gap-4">
               <!-- card 1 -->
               <div
                 class="bg-[#d9d9d9] flex flex-col justify-center items-center p-3 rounded-md gap-3"

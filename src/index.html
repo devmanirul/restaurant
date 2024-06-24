@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant-home</title>
     <link href="./output.css" rel="stylesheet" />
+
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+
+    <!-- <link href="./output.css" rel="stylesheet" /> -->
   </head>
   <body>
     <!-- header -->
- 
     <header
       class="max-w-7xl mx-auto pl-10 bg-[#fafafa] hidden lg:flex flex-row gap-5 rounded-b-lg"
     >
@@ -69,7 +81,7 @@
         <img src="./images/home/Menubar.svg" alt="" class="" />
       </div>
     </div>
-
+    <!-- nav -->
     <nav
       class="max-w-7xl mx-auto hidden lg:flex md:flex flex-row justify-center items-center gap-5 py-7"
     >
@@ -135,7 +147,7 @@
       </div>
     </div>
     <!-- location responsive -->
-    <div class="lg:hidden md:hidden flex flex-row justify-end items-center">
+    <div class="lg:hidden md:hidden flex flex-row justify-end items-center p-2">
       <div class="flex flex-row gap-2 justify-end items-center">
         <img src="./images/home/Location.svg" alt="" class="cursor-pointer" />
         <p class="text-xs font-bold">Lution Street, N4g-00</p>
@@ -147,10 +159,12 @@
     <main class="max-w-7xl mx-auto">
       <!-- Feast your senses section -->
       <section
-        class="relative w-full flex flex-row bg-[#e2e2e2] rounded-md px-10 m-3 md:m-0 lg:m-0"
+        class="relative flex flex-row bg-[#e2e2e2] rounded-md px-2 md:px-10 m-2 md:m-0 lg:m-0"
       >
         <!-- left -->
-        <div class="lg:w-7/12 w-full flex flex-col gap-5 py-20">
+        <div
+          class="lg:w-7/12 w-full flex flex-col items-center md:items-start gap-2 md:gap-5 md:py-20 py-6"
+        >
           <p class="text-xs font-semibold py-2">
             Order Restaurant food, takeaway and groceries.
           </p>
@@ -166,10 +180,22 @@
               class="rounded-l-full py-3 pl-4 border outline-none"
             />
             <button
-              class="absolute left-[150px] bg-[#fc8a06] text-white rounded-full px-14 py-3"
+              class="absolute left-[150px] top-0 bg-[#fc8a06] lg:block md:block hidden text-white rounded-full px-14 py-3"
             >
               Search
             </button>
+            <!-- responsive -->
+            <div
+              class="bg-[#fc8a06] absolute top-[1px] -right-4 p-2 rounded-full w-12"
+            >
+              <div class="bg-black rounded-full">
+                <img
+                  src="./images/home/Next page.svg"
+                  alt=""
+                  class="bg-white rounded-full"
+                />
+              </div>
+            </div>
           </div>
           <!-- pizza pic -->
           <div class="absolute right-[395px] bottom-0 z-20">
@@ -243,19 +269,20 @@
           </div>
         </div>
       </section>
+
       <!-- exclusive deals -->
-      <section class="flex flex-col gap-7 py-5">
+
+      <section class="flex flex-col gap-7 py-5 m-2">
         <!-- exclusive nav -->
         <div class="flex flex-row justify-between items-center py-5">
-          <!-- left site -->
           <h1 class="hidden md:block lg:block text-2xl font-bold">
             Up to -40% 🎊 Order.uk exclusive deals
           </h1>
           <!-- responsive heading -->
-          <h1 class="md:hidden lg:hidden text-lg font-bold">
+          <h1 class="md:hidden lg:hidden text-xs font-bold">
             Up to -40% Discount Offers 🎊
           </h1>
-          <!-- right site -->
+          <!-- right side -->
           <div
             class="lg:flex md:flex flex-row gap-5 justify-center items-center hidden"
           >
@@ -286,7 +313,7 @@
           </div>
           <!-- responsive dropdown -->
           <div
-            class="flex md:hidden lg:hidden flex-row rounded-2xl border border-black py-2 px-3"
+            class="flex md:hidden lg:hidden flex-row rounded-2xl text-xs border border-black p-0.5"
           >
             <img src="" alt="" />
             <select
@@ -295,7 +322,7 @@
               class="bg-transparent poppins font-medium cursor-pointer outline-none"
             >
               <option
-                value="  Pizza & Fast food"
+                value="Pizza & Fast food"
                 class="poppins font-medium text-black"
               >
                 Pizza & Fast food
@@ -315,51 +342,57 @@
         <!-- card -->
         <div class="flex flex-row gap-5">
           <!-- card1 -->
-          <div class="w-4/12 relative cursor-pointer">
+          <div class="relative cursor-pointer">
             <img src="./images/home/Group 8.svg" alt="" class="" />
             <div class="">
-              <div class="absolute bottom-5 left-5">
-                <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white text-xl font-bold">
+              <div class="">
+                <span class="text-[#fc8a06] md:text-base text-xs font-bold"
+                  >Restaurant</span
+                >
+                <h3 class="md:text-white md:text-xl text-xs font-bold">
                   Chef Burgers London
                 </h3>
               </div>
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white font-bold"
+                class="absolute md:p-2 top-0 md:right-4 right-1 rounded-b-lg bg-black text-xs text-white md:font-bold"
               >
                 -40%
               </div>
             </div>
           </div>
           <!-- card2 -->
-          <div class="w-4/12 relative cursor-pointer">
+          <div class="relative cursor-pointer">
             <img src="./images/home/Group9.svg" alt="" class="" />
             <div class="">
-              <div class="absolute bottom-5 left-5">
-                <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white text-xl font-bold">
+              <div class="">
+                <span class="text-[#fc8a06] md:text-base text-xs font-bold"
+                  >Restaurant</span
+                >
+                <h3 class="md:text-white md:text-xl text-xs font-bold">
                   Grand Ai Cafe London
                 </h3>
               </div>
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white font-bold"
+                class="absolute md:p-2 top-0 md:right-4 right-1 rounded-b-lg bg-black text-xs text-white md:font-bold"
               >
                 -20%
               </div>
             </div>
           </div>
           <!-- card3 -->
-          <div class="w-4/12 relative cursor-pointer">
+          <div class="relative cursor-pointer">
             <img src="./images/home/Group 8.svg" alt="" class="" />
             <div class="">
-              <div class="absolute bottom-5 left-5">
-                <span class="text-[#fc8a06]">Restaurant</span>
-                <h3 class="text-white text-xl font-bold">
+              <div class="">
+                <span class="text-[#fc8a06] md:text-base text-xs font-bold"
+                  >Restaurant</span
+                >
+                <h3 class="md:text-white md:text-xl text-xs font-bold">
                   Butterbrot Caf’e London
                 </h3>
               </div>
               <div
-                class="w[20pz] absolute p-2 top-0 right-4 rounded-b-lg bg-black text-white font-bold"
+                class="absolute md:p-2 top-0 md:right-4 right-1 rounded-b-lg bg-black text-xs text-white md:font-bold"
               >
                 -17%
               </div>
@@ -368,93 +401,84 @@
         </div>
       </section>
       <!-- popular categories -->
-      <section class="flex flex-col gap-7 py-5">
+      <section class="flex flex-col md:gap-7 py-5 m-2">
         <!-- popular nav -->
         <div class="flex flex-row justify-between items-center">
           <!-- left site -->
-          <h1 class="text-2xl font-bold">Order.uk Popular Categories 🤩</h1>
+          <h1 class="text-2xl font-bold mb-3">Popular Categories 🤩</h1>
         </div>
         <!-- card -->
-        <div class="lg:flex md:flex grid grid-cols-2 flex-row gap-5">
+        <div class="lg:flex md:flex grid grid-cols-2 flex-row gap-3 md:gap-5">
           <!-- card1 -->
-          <div class="w-2/12 relative cursor-pointer">
+          <div class="md:w-2/12 cursor-pointer">
             <img src="./images/home/Rectangle 13.svg" alt="" class="" />
 
-            <div
-              class="absolute -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Burgers & Fast food</h3>
+            <div class="bg-[#f5f5f5] px-1 md:px-[20px] py-1 rounded-b-xl">
+              <h3 class="font-bold text-sm md:text-base">
+                Burgers & Fast food
+              </h3>
               <span class="text-[#fc8a06]">21 Restaurants</span>
             </div>
           </div>
           <!-- card2 -->
-          <div class="w-2/12 relative cursor-pointer">
+          <div class="md:w-2/12 cursor-pointer">
             <img src="./images/home/Rectangle 15.svg" alt="" class="" />
 
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[25px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Sales</h3>
+            <div class="bg-[#f5f5f5] px-1 md:px-[20px] py-1 rounded-b-xl">
+              <h3 class="font-bold text-sm md:text-base">Sales</h3>
               <span class="text-[#fc8a06]">32 Restaurants</span>
             </div>
           </div>
           <!-- card3 -->
-          <div class="w-2/12 relative cursor-pointer">
+          <div class="md:w-2/12 cursor-pointer">
             <img src="./images/home/Rectangle 17.svg" alt="" class="" />
 
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Pasta & Casuals</h3>
+            <div class="bg-[#f5f5f5] px-1 md:px-[20px] py-1 rounded-b-xl">
+              <h3 class="font-bold text-sm md:text-base">Pasta & Casuals</h3>
               <span class="text-[#fc8a06]">4 Restaurants</span>
             </div>
           </div>
           <!-- card4 -->
-          <div class="w-2/12 relative cursor-pointer">
+          <div class="md:w-2/12 cursor-pointer">
             <img src="./images/home/Rectangle 19.svg" alt="" class="" />
 
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Pizza</h3>
+            <div class="bg-[#f5f5f5] px-1 md:px-[20px] py-1 rounded-b-xl">
+              <h3 class="font-bold text-sm md:text-base">Pizza</h3>
               <span class="text-[#fc8a06]">32 Restaurants</span>
             </div>
           </div>
           <!-- card5 -->
-          <div class="w-2/12 relative cursor-pointer">
+          <div class="md:w-2/12 cursor-pointer">
             <img src="./images/home/Rectangle 21.svg" alt="" class="" />
 
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Breakfast</h3>
+            <div class="bg-[#f5f5f5] px-1 md:px-[20px] py-1 rounded-b-xl">
+              <h3 class="font-bold text-sm md:text-base">Breakfast</h3>
               <span class="text-[#fc8a06]">4 Restaurants</span>
             </div>
           </div>
           <!-- card6 -->
-          <div class="w-2/12 relative cursor-pointer">
+          <div class="md:w-2/12 cursor-pointer">
             <img src="./images/home/Rectangle 23.svg" alt="" class="" />
 
-            <div
-              class="absolute w-full -bottom left-0 bg-[#f5f5f5] px-[23px] py-1 rounded-b-xl"
-            >
-              <h3 class="font-bold">Soups</h3>
+            <div class="bg-[#f5f5f5] px-1 md:px-[20px] py-1 rounded-b-xl">
+              <h3 class="font-bold text-sm md:text-base">Soups</h3>
               <span class="text-[#fc8a06]">32 Restaurants</span>
             </div>
           </div>
         </div>
       </section>
+
       <!-- popular restaurant section -->
-      <section class="flex flex-col gap-7 py-5 pt-20">
+      <section class="flex flex-col gap-7 py-5 pt-20 m-2">
         <!-- popular nav -->
         <div class="flex flex-row justify-between items-center">
           <!-- left site -->
-          <h1 class="text-2xl font-bold">Order.uk Popular Categories 🤩</h1>
+          <h1 class="text-2xl font-bold">Popular Restaurant 🤩</h1>
         </div>
         <!-- card -->
-        <div class="flex flex-row gap-5">
+        <div class="popular_restaurant">
           <!-- card1 -->
-          <div class="w-2/12 relative">
+          <div class="relative mx-2">
             <img src="./images/home/Rectangle1.svg" alt="" class="" />
 
             <div
@@ -464,7 +488,7 @@
             </div>
           </div>
           <!-- card2 -->
-          <div class="w-2/12 relative">
+          <div class="relative mx-2">
             <img src="./images/home/Rectangle2.svg" alt="" class="" />
 
             <div
@@ -474,7 +498,7 @@
             </div>
           </div>
           <!-- card3 -->
-          <div class="w-2/12 relative">
+          <div class="relative mx-2">
             <img src="./images/home/Rectangle3.svg" alt="" class="" />
 
             <div
@@ -484,7 +508,7 @@
             </div>
           </div>
           <!-- card4 -->
-          <div class="w-2/12 relative">
+          <div class="relative mx-2">
             <img src="./images/home/Rectangle4.svg" alt="" class="" />
 
             <div
@@ -494,7 +518,7 @@
             </div>
           </div>
           <!-- card5 -->
-          <div class="w-2/12 relative">
+          <div class="relative mx-2">
             <img src="./images/home/Rectangle5.svg" alt="" class="" />
 
             <div
@@ -504,7 +528,7 @@
             </div>
           </div>
           <!-- card6 -->
-          <div class="w-2/12 relative">
+          <div class="relative mx-2">
             <img src="./images/home/Rectangle6.svg" alt="" class="" />
 
             <div
@@ -517,10 +541,12 @@
       </section>
       <!-- ordering is more -->
       <section
-        class="relative flex flex-row gap-5 bg-[#ececec] lg:pr-16 md:pr-10 w-full mt-24 rounded-lg"
+        class="relative flex flex-col-reverse md:flex-row md:gap-5 gap-0 bg-[#ececec] lg:pr-16 md:pr-10 mt-24 mx-2 md:mx-0 rounded-lg"
       >
         <!-- laufing pic -->
-        <div class="lg:w-7/12 z-10 lg:block md:block hidden">
+        <div
+          class="w-full pl-6 md:pl-0 pr-8 md:pr-0 md:lg:w-7/12 z-10 lg:block md:block"
+        >
           <img
             src="./images/home/friends-laughing-using-mobiles 2.svg"
             alt=""
@@ -528,31 +554,37 @@
           />
         </div>
         <!-- right -->
-        <div class="relative max-lg:w-5/12 flex flex-col gap-5 py-16">
+        <div
+          class="relative w-full lg:w-5/12 flex flex-col gap-5 py-6 md:py-16"
+        >
           <!-- order h1 -->
-          <div class="flex flex-row items-center justify-start">
+          <div
+            class="flex flex-row items-center justify-center md:justify-start"
+          >
             <img
               src="./images/home/LOGO 1.svg"
               alt=""
-              class="lg:h-[165px] lg:w-[165px]"
+              class="lg:h-[165px] lg:w-[165px] h-6"
             />
-            <p class="lg:text-5xl md:text-3xl text-xl font-bold">ing is more</p>
+            <p class="lg:text-5xl md:text-3xl text-2xl font-bold">
+              ing is more
+            </p>
           </div>
           <!-- personalised & instant -->
           <div
-            class="lg:bg-black md:bg-black rounded-full z-0 absolute top-52 -left-36 lg:pl-40 md:pl-14 lg:pr-20 md:pr-14"
+            class="lg:bg-black md:bg-black rounded-full z-0 absolute top-10 md:top-52 left-8 md:-left-36 lg:pl-40 md:pl-14 lg:pr-20 md:pr-14 my-2"
           >
             <p
-              class="lg:text-white md:white lg:text-4xl md:text-3xl text-2xl text-center py-3"
+              class="text-black lg:text-white md:text-white lg:text-4xl md:text-3xl text-2xl text-center py-3"
             >
               <span class="text-[#fc8a06] underline">Personalised</span> &
               Instant
             </p>
           </div>
-          <p class="text-xl mt-10">
+          <p class="text-sm text-center font-semibold md:text-xl mt-10">
             Download the Order.uk app for faster ordering
           </p>
-          <div class="flex flex-row gap-2 ml-0">
+          <div class="flex flex-row justify-center gap-2 md:ml-0 mx-4 md:mx-0">
             <a href="" class="">
               <img src="./images/home/Group.svg" alt="" class="" />
             </a>
@@ -563,58 +595,86 @@
         </div>
       </section>
       <!-- earn/chef cards -->
-      <section class="flex flex-row items-center justify-between gap-4 my-16">
+      <section
+        class="flex flex-col md:flex-row lg:flex-row items-center justify-between gap-4 my-8 m-2 md:mx-0"
+      >
         <!-- card1 -->
-        <div class="w-1/2 relative">
-          <img src="./images/home/busness.svg" alt="" class="" />
+        <div class="md:w-1/2 lg:w-1/2 relative">
+          <img src="./images/home/rider.png" alt="" class="md:w-full w-fit" />
           <div class="">
-            <div class="absolute bottom-8 left-12 flex flex-col">
-              <p class="text-[#FC8A06]">Signup as a business</p>
-              <h4 class="text-white font-bold text-[42px] mb-4">
+            <div
+              class="absolute bottom-6 md:bottom-8 left-8 md:left-12 flex flex-col"
+            >
+              <p class="text-[#FC8A06] text-sm md:text-base">
+                Signup as a business
+              </p>
+              <h4
+                class="text-white font-bold text-xl md:text-[42px] lg:text-[42px] mb-1 md:mb-4"
+              >
                 Partner with us
               </h4>
               <button
-                class="bg-[#FC8A06] py-3 w-8/12 rounded-full text-white text-lg font-medium"
+                class="bg-[#FC8A06] py-1 md:py-3 md:w-8/12 rounded-full text-white text-base md:text-lg font-medium"
               >
                 Get Started
               </button>
             </div>
             <div
-              class="w[20pz] absolute p-2 top-0 left-12 rounded-b-lg bg-white"
+              class="absolute p-0.5 md:p-2 top-0 left-4 md:left-12 rounded-b-lg bg-white"
             >
-              <p class="font-bold text-lg px-4">Earn more with lower fees</p>
+              <p class="font-bold text-sm md:text-lg px-1 md:px-4 lg:px-4">
+                Earn more with lower fees
+              </p>
             </div>
           </div>
         </div>
         <!-- card 2 -->
-        <div class="w-1/2 relative">
-          <img src="./images/home/rider.svg" alt="" class="" />
+        <div class="md:w-1/2 lg:w-1/2 relative">
+          <img
+            src="./images/home/business.png"
+            alt=""
+            class="md:w-full w-fit"
+          />
           <div class="">
-            <div class="absolute bottom-8 left-12 flex flex-col">
-              <p class="text-[#FC8A06]">Signup as a rider</p>
-              <h4 class="text-white font-bold text-[42px] mb-4">
+            <div
+              class="absolute bottom-6 md:bottom-8 left-8 md:left-12 flex flex-col"
+            >
+              <p class="text-[#FC8A06] text-sm md:text-base">
+                Signup as a rider
+              </p>
+              <h4
+                class="text-white font-bold text-xl md:text-[42px] lg:text-[42px] mb-1 md:mb-4"
+              >
                 Ride with us
               </h4>
               <button
-                class="bg-[#FC8A06] py-3 w-8/12 rounded-full text-white text-lg font-medium"
+                class="bg-[#FC8A06] py-1 md:py-3 md:w-8/12 rounded-full text-white text-base md:text-lg font-medium"
               >
                 Get Started
               </button>
             </div>
             <div
-              class="w[20pz] absolute p-2 top-0 left-12 rounded-b-lg bg-white"
+              class="absolute p-0.5 md:p-2 top-0 left-4 md:left-12 rounded-b-lg bg-white"
             >
-              <p class="font-bold text-lg px-4">Avail exclusive perks</p>
+              <p class="font-bold text-sm md:text-lg px-1 md:px-4 lg:px-4">
+                Avail exclusive perks
+              </p>
             </div>
           </div>
         </div>
       </section>
       <!-- know more section -->
-      <section class="bg-[#f4f4f4] my-7 px-16 py-10 rounded-md border">
+      <section
+        class="bg-[#f4f4f4] my-7 lg:px-16 md:px-16 px-2 py-0 rounded-md border lg:mt-0 md:mt-0 lg:m-0 md:m-0 m-2"
+      >
         <!-- know more nav  -->
         <div class="flex flex-row justify-between items-center p-5 py-8">
           <!-- left site -->
-          <h1 class="text-2xl font-bold">Know more about us!</h1>
+          <h1
+            class="text-2xl font-bold lg:text-start md:text-start text-center"
+          >
+            Know more about us!
+          </h1>
           <!-- right site -->
           <div
             class="lg:flex md:flex hidden flex-row gap-5 justify-center items-center"
@@ -650,7 +710,7 @@
           class="flex lg:flex-row md:flex-row flex-col bg-white p-5 mb-5 rounded-md"
         >
           <!-- left sit -->
-          <div class="w-5/12 font-bold flex flex-col gap-5">
+          <div class="lg:w-5/12 md:w-5/12 font-bold flex flex-col gap-5">
             <button class="bg-[#fc8a06] rounded-full py-3 px-5">
               How does Order.UK work?
             </button>
@@ -662,9 +722,13 @@
             <p class="">Is Order.UK available in my area</p>
           </div>
           <!-- right sit -->
-          <div class="w-7/12 flex flex-col justify-center items-center gap-5">
+          <div
+            class="lg:w-7/12 md:w-7/12 lg:bg-white md:bg-white bg-black rounded-md flex flex-col justify-center items-center gap-5 lg:mt-0 md:mt-0 mt-5"
+          >
             <!-- cards -->
-            <div class="flex lg:flex-row md:flex-row flex-col gap-4">
+            <div
+              class="flex lg:flex-row md:flex-row flex-col gap-4 lg:my-0 md:my-0 my-4"
+            >
               <!-- card 1 -->
               <div
                 class="bg-[#d9d9d9] flex flex-col justify-center items-center p-3 rounded-md gap-3"
@@ -700,7 +764,9 @@
               </div>
             </div>
             <div class="">
-              <p class="text-center">
+              <p
+                class="text-center lg:text-black md:text-black text-white lg:text-base md:text-base text-xs lg:p-0 md:p-0 p-2 lg:mb-0 md:mb-0 mb-5"
+              >
                 Order.UK simplifies the food ordering process. Browse through
                 our diverse menu, select your favorite dishes, and proceed to
                 checkout. Your delicious meal will be on its way to your
@@ -712,32 +778,48 @@
       </section>
       <!-- calculation section -->
       <section
-        class="flex lg:flex-row md:flex-row flex-col justify-center items-center bg-[#fc8a06] rounded-lg py-5 mt-20"
+        class="flex lg:flex-row md:flex-row flex-col justify-center items-center lg:gap-0 md:gap-0 gap-5 bg-[#fc8a06] rounded-lg py-5 mt-20 lg:mt-10 md:mt-10 m-2"
       >
         <!-- 1 -->
-        <div class="w-3/12">
-          <div class="border-r flex flex-col items-center justify-center">
+        <div class="lg:w-3/12 md:w-3/12 lg:border-b-0 md:border-b-0 border-b">
+          <div
+            class="lg:border-r md:border-r flex flex-col items-center justify-center"
+          >
             <h5 class="text-4xl text-white pr-4">546+</h5>
-            <p class="text-white font-bold text-xl">Registered Riders</p>
+            <p class="text-white font-bold text-xl lg:mb-0 md:mb-0 mb-3">
+              Registered Riders
+            </p>
           </div>
         </div>
         <!-- 2 -->
-        <div class="w-3/12">
-          <div class="border-r flex flex-col items-center justify-center">
+        <div class="lg:w-3/12 md:w-3/12 lg:border-b-0 md:border-b-0 border-b">
+          <div
+            class="lg:border-r md:border-r flex flex-col items-center justify-center"
+          >
             <h5 class="text-4xl text-white pr-4">789,900+</h5>
-            <p class="text-white font-bold text-xl">Orders Deliverd</p>
+            <p class="text-white font-bold text-xl lg:mb-0 md:mb-0 mb-3">
+              Orders Deliverd
+            </p>
           </div>
         </div>
         <!-- 3 -->
-        <div class="w-3/12">
-          <div class="border-r flex flex-col items-center justify-center">
+        <div class="lg:w-3/12 md:w-3/12 lg:border-b-0 md:border-b-0 border-b">
+          <div
+            class="lg:border-r md:border-r flex flex-col items-center justify-center"
+          >
             <h5 class="text-4xl text-white pr-4">690+</h5>
-            <p class="text-white font-bold text-xl">Restaurants Partnered</p>
+            <p class="text-white font-bold text-xl lg:mb-0 md:mb-0 mb-3">
+              Restaurants Partnered
+            </p>
           </div>
         </div>
         <!-- 4 -->
-        <div class="w-3/12 py-5">
-          <div class="border-r flex flex-col items-center justify-center">
+        <div
+          class="lg:w-3/12 md:w-3/12 py-5 lg:border-b-0 md:border-b-0 border-b"
+        >
+          <div
+            class="lg:border-r md:border-r flex flex-col items-center justify-center"
+          >
             <h5 class="text-4xl text-white pr-4">17,457+</h5>
             <p class="text-white font-bold text-xl">Food items</p>
           </div>
@@ -776,18 +858,22 @@
             class="bg-[#d9d9d9] lg:py-[15px] md:py-3 py-3 lg:pl-6 md:pl-5 pl-2 outline-none rounded-l-full lg:text-base md:text-base text-sm"
           />
           <button
-            class="absolute rounded-full bg-[#fc8a06] lg:px-10 md:px-8 px-5 lg:py-[15px] md:py-3 py-3 lg:right-20 md:right-16 right-0 bottom-4 lg:text-base md:text-base text-sm"
+            class="absolute rounded-full bg-[#fc8a06] lg:px-10 md:px-8 px-5 lg:py-[15px] md:py-3 py-3 lg:right-28 md:right-16 right-0 bottom-4 lg:text-base md:text-base text-sm"
           >
             Subscribe
           </button>
         </div>
-        <p class="">
+        <p
+          class="lg:base md:base text-sm lg:text-start md:text-start text-center"
+        >
           we wont spam, read our
           <span class="">
             <a href="" class="underline">email policy</a>
           </span>
         </p>
-        <div class="flex flex-row gap-3 mt-5">
+        <div
+          class="flex flex-row lg:justify-start md:justify-start justify-center gap-3 mt-5"
+        >
           <a href="" class="">
             <img src="./images/home/Facebook (1).svg" alt="" class="" />
           </a>
@@ -803,7 +889,9 @@
         </div>
       </div>
       <!-- 3 -->
-      <div class="lg:w-4/12 md:w-4/12  flex lg:flex-row md:flex-row flex-col justify-between items-center">
+      <div
+        class="lg:w-4/12 md:w-4/12 flex lg:flex-row md:flex-row flex-col justify-between items-center"
+      >
         <!-- 1 -->
         <div class="flex flex-col lg:gap-5 md:gap-4 gap-2">
           <h3 class="font-bold text-lg">Legal Pages</h3>
@@ -824,7 +912,9 @@
     </section>
     <!-- footer -->
     <footer class="bg-[#03081f] text-white lg:px-16 md:px-12 px-2 py-8">
-      <div class="md:block hidden max-w-7xl mx-auto lg:flex flex-row justify-between items-center">
+      <div
+        class="md:block hidden max-w-7xl mx-auto lg:flex flex-row justify-between items-center"
+      >
         <div class="">
           <p class="">Order.uk Copyright 2024, All Rights Reserved.</p>
         </div>
@@ -837,9 +927,25 @@
         </div>
       </div>
       <!-- responsive -->
-       <div class="lg:hidden md:hidden">
-          <p class="text-sm text-center">Order.uk Copyright 2024, All Rights Reserved.</p>
-        </div>
+      <div class="lg:hidden md:hidden">
+        <p class="text-sm text-center">
+          Order.uk Copyright 2024, All Rights Reserved.
+        </p>
+      </div>
     </footer>
+    <!-- slick slider js -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./slick/script.js"></script>
   </body>
 </html>

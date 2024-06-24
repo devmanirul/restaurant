@@ -917,14 +917,6 @@ video {
   width: 50%;
 }
 
-.w-60 {
-  width: 15rem;
-}
-
-.w-7\/12 {
-  width: 58.333333%;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -940,6 +932,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
+}
+
+.w-9\/12 {
+  width: 75%;
 }
 
 .max-w-7xl {
@@ -1036,6 +1036,10 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .rounded-2xl {
@@ -1275,11 +1279,6 @@ video {
   padding-right: 0.25rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -1410,21 +1409,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-\[15px\] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pl-10 {
   padding-left: 2.5rem;
-}
-
-.pl-16 {
-  padding-left: 4rem;
 }
 
 .pl-2 {
@@ -1465,6 +1455,10 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .text-center {
@@ -1638,12 +1632,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:-bottom-20 {
+    bottom: -5rem;
+  }
+
   .md\:-left-36 {
     left: -9rem;
   }
 
   .md\:bottom-8 {
     bottom: 2rem;
+  }
+
+  .md\:left-0 {
+    left: 0px;
   }
 
   .md\:left-12 {
@@ -1664,10 +1666,6 @@ video {
 
   .md\:m-0 {
     margin: 0px;
-  }
-
-  .md\:m-2 {
-    margin: 0.5rem;
   }
 
   .md\:mx-0 {
@@ -1776,12 +1774,20 @@ video {
     gap: 1.75rem;
   }
 
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
+
   .md\:border-b-0 {
     border-bottom-width: 0px;
   }
 
   .md\:border-r {
     border-right-width: 1px;
+  }
+
+  .md\:bg-\[\#E2E2E2\]\/90 {
+    background-color: rgb(226 226 226 / 0.9);
   }
 
   .md\:bg-black {
@@ -1792,10 +1798,6 @@ video {
   .md\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .md\:bg-\[\#E2E2E2\]\/90 {
-    background-color: rgb(226 226 226 / 0.9);
   }
 
   .md\:p-0 {
@@ -1856,6 +1858,11 @@ video {
     padding-bottom: 2rem;
   }
 
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .md\:pl-0 {
     padding-left: 0px;
   }
@@ -1880,6 +1887,14 @@ video {
     padding-right: 3.5rem;
   }
 
+  .md\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .md\:pl-20 {
+    padding-left: 5rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -1892,6 +1907,11 @@ video {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-\[42px\] {

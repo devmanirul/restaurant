@@ -38,10 +38,10 @@ $(".customar_reviews").slick({
   infinite: false,
   touchMove: true,
   arrows: true,
-  prevArrow:'.prevArrow',
-  nextArrow:'.nextArrow',
+  prevArrow: ".prevArrow",
+  nextArrow: ".nextArrow",
   speed: 300,
-   
+
   responsive: [
     {
       breakpoint: 1040,
@@ -69,4 +69,3 @@ $(".customar_reviews").slick({
     // instead of a settings object
   ],
 });
-

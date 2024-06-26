@@ -38,18 +38,13 @@ $(".customar_reviews").slick({
   infinite: false,
   touchMove: true,
   arrows: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   prevArrow: ".prevArrow",
   nextArrow: ".nextArrow",
   speed: 300,
 
   responsive: [
-    {
-      breakpoint: 1040,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
     {
       breakpoint: 600,
       settings: {

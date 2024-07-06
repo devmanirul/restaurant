@@ -35,7 +35,7 @@ $(".popular_restaurant").slick({
 // customar review
 
 $(".customar_reviews").slick({
-  infinite: false,
+  infinite: true,
   touchMove: true,
   arrows: true,
   prevArrow: ".prevArrow",

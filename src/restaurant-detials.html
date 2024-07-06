@@ -372,7 +372,7 @@
         </div>
     </section>
     <!-- burger section -->
-     <section class="max-w-7xl flex flex-col gap-10 mx-auto my-10">
+     <section class="max-w-7xl hidden md:flex flex-col gap-10 mx-auto my-10">
       <!-- burger cards -->
       <div class="mt-5">
         <div class="">
@@ -697,8 +697,9 @@
         </div>
       </div>
       <!-- right -->
-      <div class="md:w-4/12 bg-black px-5 py-12 rounded-r-md md:p-0 m-3">
-        <div class="flex flex-row justify-start items-center gap-2">
+      <div class="md:w-4/12 bg-black  rounded-r-md">
+        <div class="px-5 py-12">
+          <div class="flex flex-row justify-start items-center gap-2">
           <img
             src="./images/ordering-page/Clock delivery.svg"
             alt=""
@@ -721,6 +722,7 @@
           </p>
         </div>
       </div>
+        </div>
     </section>
     <!-- map section -->
     <section
@@ -750,117 +752,317 @@
         <img src="./images/ordering-page/arrowLocation.svg" alt="" class="" />
       </div>
     </section>
-
     <!-- customer Reviews -->
-    <section class="max-w-7xl mx-auto relative flex flex-col bg-[#e8e8e8] px-28 py-24 my-16">
+    <section
+      class="relative flex flex-col bg-[#e8e8e8] md:px-28 py-3 md:py-24 md:my-16"
+    >
       <!-- nav -->
-      <div class="flex flex-row justify-between items-center">
-        <h1 class="text-2xl font-bold">Customer Reviews</h1>
-        <!-- left arrow -->
-        <div class="flex flex-row gap-2">
-          <div class="bg-[#fc8a06] p-2 rounded-full">
+      <div class="">
+        <div
+          class="flex flex-row md:justify-between justify-center items-center gap-3"
+        >
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="text-2xl font-bold">Customer Reviews</h1>
+            <div class="border rounded-md md:hidden">
+              <img src="./images/ordering-page/3.4.svg" alt="" class="" />
+            </div>
+          </div>
+          <!-- arrow responsive -->
+          <div class="hidden md:flex flex-row gap-2">
+            <!-- left arrow -->
+            <div class="prevArrow bg-[#fc8a06] p-2 rounded-full">
+              <img src="./images/ordering-page/BackL.svg" alt="" class="" />
+            </div>
+            <!-- right arrow -->
+            <div class="nextArrow bg-[#fc8a06] p-2 rounded-full">
+              <img src="./images/ordering-page/BackR.svg" alt="" class="" />
+            </div>
+          </div>
+        </div>
+        <!-- arrow lg -->
+        <div class="relative md:hidden -bottom-60 left-20 flex flex-row gap-2">
+          <!-- left arrow -->
+          <div class="prevArrow bg-[#fc8a06] p-2 rounded-full">
             <img src="./images/ordering-page/BackL.svg" alt="" class="" />
           </div>
           <!-- right arrow -->
-          <div class="bg-[#fc8a06] p-2 rounded-full">
+          <div class="nextArrow bg-[#fc8a06] p-2 rounded-full">
             <img src="./images/ordering-page/BackR.svg" alt="" class="" />
           </div>
         </div>
-      </div>
-      <div class="flex flex-row gap-5 mt-5">
-        <!-- card1 -->
-      <div class="w-4/12 flex flex-col bg-white p-5 gap-5 rounded-md">
-        <div class="flex flex-row justify-between items-center">
-          <div class="flex flex-row gap-3">
-            <img src="./images/restaurant-daitels-page/Ellipse 3.svg" alt="" class="">
-            <div class="flex flex-col">
-              <h3 class="text-lg font-bold">St Glx</h3>
-              <span class="text-[#fc8a06]">South London</span>
+        <!-- slider -->
+        <div class="customar_reviews my-5">
+          <!-- card1 -->
+          <div
+            class="md:w-4/12 flex flex-col bg-white md:p-5 p-2 md:gap-5 rounded-md mx-1"
+          >
+            <div
+              class="flex flex-row md:justify-between justify-normal items-center"
+            >
+              <div class="flex flex-row gap-3">
+                <img
+                  src="./images/restaurant-daitels-page/Ellipse 3.svg"
+                  alt=""
+                  class=""
+                />
+                <div class="flex flex-col">
+                  <h3 class="md:text-lg font-bold text-xs">St Glx</h3>
+                  <span class="text-[#fc8a06] md:text-sm text-xs"
+                    >South London</span
+                  >
+                </div>
+              </div>
+              <div class="flex flex-col justify-end">
+                <div
+                  class="flex flex-row md:justify-end justify-start md:gap-1"
+                >
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./images/restaurant-daitels-page/Time Span.svg"
+                    alt=""
+                    class=""
+                  />
+                  <p class="md:text-sm text-xs">24th September, 2023</p>
+                </div>
+              </div>
             </div>
-            
-          </div>
-          <div class="flex flex-col  justify-end">
-            <div class="flex flex-row justify-end gap-1">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-            </div>
-            <div class="flex flex-row">
-              <img src="./images/restaurant-daitels-page/Time Span.svg" alt="" class="">
-              <p class="">24th September, 2023</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="">
-          <p class="text-sm">The positive aspect was undoubtedly the efficiency of <br> the service. The queue moved quickly, the staff was <br> friendly, and the food was up to the usual McDonald's <br> standard – hot and satisfying.</p>
-        </div>
-      </div>
-      <!-- card2 -->
-      <div class="w-4/12 flex flex-col bg-white p-5 gap-5 rounded-md">
-        <div class="flex flex-row justify-between items-center">
-          <div class="flex flex-row gap-3">
-            <img src="./images/restaurant-daitels-page/Ellipse 3.svg" alt="" class="">
-            <div class="flex flex-col">
-              <h3 class="text-lg font-bold">St Glx</h3>
-              <span class="text-[#fc8a06]">South London</span>
-            </div>
-            
-          </div>
-          <div class="flex flex-col  justify-end">
-            <div class="flex flex-row justify-end gap-1">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-            </div>
-            <div class="flex flex-row">
-              <img src="./images/restaurant-daitels-page/Time Span.svg" alt="" class="">
-              <p class="">24th September, 2023</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="">
-          <p class="text-sm">The positive aspect was undoubtedly the efficiency of <br> the service. The queue moved quickly, the staff was <br> friendly, and the food was up to the usual McDonald's <br> standard – hot and satisfying.</p>
-        </div>
-      </div>
-      <!-- card3 -->
-      <div class="w-4/12 flex flex-col bg-white p-5 gap-5 rounded-md">
-        <div class="flex flex-row justify-between items-center">
-          <div class="flex flex-row gap-3">
-            <img src="./images/restaurant-daitels-page/Ellipse 3.svg" alt="" class="">
-            <div class="flex flex-col">
-              <h3 class="text-lg font-bold">St Glx</h3>
-              <span class="text-[#fc8a06]">South London</span>
-            </div>
-            
-          </div>
-          <div class="flex flex-col  justify-end">
-            <div class="flex flex-row justify-end gap-1">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-              <img src="./images/restaurant-daitels-page/Star.svg" alt="" class="">
-            </div>
-            <div class="flex flex-row">
-              <img src="./images/restaurant-daitels-page/Time Span.svg" alt="" class="">
-              <p class="">24th September, 2023</p>
+            <div class="">
+              <p class="md:text-sm text-xs">
+                The positive aspect was undoubtedly the efficiency of <br />
+                the service. The queue moved quickly, the staff was <br />
+                friendly, and the food was up to the usual McDonald's <br />
+                standard – hot and satisfying.
+              </p>
             </div>
           </div>
-
+          <!-- card2 -->
+          <div
+            class="md:w-4/12 flex flex-col bg-white p-5 gap-5 rounded-md mx-1"
+          >
+            <div
+              class="flex flex-row md:justify-between justify-normal items-center"
+            >
+              <div class="flex flex-row gap-3">
+                <img
+                  src="./images/restaurant-daitels-page/Ellipse 3.svg"
+                  alt=""
+                  class=""
+                />
+                <div class="flex flex-col">
+                  <h3 class="text-lg font-bold">St Glx</h3>
+                  <span class="text-[#fc8a06]">South London</span>
+                </div>
+              </div>
+              <div class="flex flex-col justify-end">
+                <div class="flex flex-row md:justify-end justify-start gap-1">
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./images/restaurant-daitels-page/Time Span.svg"
+                    alt=""
+                    class=""
+                  />
+                  <p class="">24th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <p class="text-sm">
+                The positive aspect was undoubtedly the efficiency of <br />
+                the service. The queue moved quickly, the staff was <br />
+                friendly, and the food was up to the usual McDonald's <br />
+                standard – hot and satisfying.
+              </p>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div
+            class="md:w-4/12 flex flex-col bg-white p-5 gap-5 rounded-md mx-1"
+          >
+            <div
+              class="flex flex-row md:justify-between justify-normal items-center"
+            >
+              <div class="flex flex-row gap-3">
+                <img
+                  src="./images/restaurant-daitels-page/Ellipse 3.svg"
+                  alt=""
+                  class=""
+                />
+                <div class="flex flex-col">
+                  <h3 class="text-lg font-bold">Manirul</h3>
+                  <span class="text-[#fc8a06]">South London</span>
+                </div>
+              </div>
+              <div class="flex flex-col justify-end">
+                <div class="flex flex-row md:justify-end justify-start gap-1">
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./images/restaurant-daitels-page/Time Span.svg"
+                    alt=""
+                    class=""
+                  />
+                  <p class="">24th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <p class="text-sm">
+                The positive aspect was undoubtedly the efficiency of <br />
+                the service. The queue moved quickly, the staff was <br />
+                friendly, and the food was up to the usual McDonald's <br />
+                standard – hot and satisfying.
+              </p>
+            </div>
+          </div>
+          <!-- card4 -->
+          <div
+            class="md:w-4/12 flex flex-col bg-white p-5 gap-5 rounded-md mx-1"
+          >
+            <div
+              class="flex flex-row md:justify-between justify-normal items-center"
+            >
+              <div class="flex flex-row gap-3">
+                <img
+                  src="./images/restaurant-daitels-page/Ellipse 3.svg"
+                  alt=""
+                  class=""
+                />
+                <div class="flex flex-col">
+                  <h3 class="text-lg font-bold">St Glx</h3>
+                  <span class="text-[#fc8a06]">South London</span>
+                </div>
+              </div>
+              <div class="flex flex-col justify-end">
+                <div class="flex flex-row md:justify-end justify-start gap-1">
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                  <img
+                    src="./images/restaurant-daitels-page/Star.svg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./images/restaurant-daitels-page/Time Span.svg"
+                    alt=""
+                    class=""
+                  />
+                  <p class="">24th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <p class="text-sm">
+                The positive aspect was undoubtedly the efficiency of <br />
+                the service. The queue moved quickly, the staff was <br />
+                friendly, and the food was up to the usual McDonald's <br />
+                standard – hot and satisfying.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="">
-          <p class="text-sm">The positive aspect was undoubtedly the efficiency of <br> the service. The queue moved quickly, the staff was <br> friendly, and the food was up to the usual McDonald's <br> standard – hot and satisfying.</p>
-        </div>
-      </div>
-      </div>
-      <div class="absolute -bottom-20 left-[570px] border rounded-md">
+        <!--  -->
+        <div
+          class="absolute hidden md:block -bottom-20 left-[640px] border rounded-md"
+        >
           <img src="./images/ordering-page/3.4.svg" alt="" class="" />
+        </div>
       </div>
     </section>
     <!-- similar restaurant section -->
